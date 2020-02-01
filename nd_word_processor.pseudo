@@ -1,0 +1,304 @@
+{{
+software idea:
+word processor with 3d graphics for connecting ideas
+  *type*type*type* wp suggest another
+    algorighm for auto-match
+      meta algorithm
+        new card here
+        let's compare it to all the cards we already have
+          loop through algorithms
+            loop through existing cards
+     user input needed:
+       is this a match?
+         bi-directional match?
+       would you like to combine these two cards to make a new card?
+         two separate cards can still be found (transparency and background [smaller size vanishing point] indicating parent relation)
+           unlike traditional "children are meant to be seen and not heard" it's "parents are meant to be barely seen and barely heard"
+    algorithm
+      word match
+      length of text
+      blackbox interface rule:
+        given text T
+        produce a score S:=0-100 (possibly representing a percent match)
+          sed/awk commands?
+          lisp?
+          ifttt?
+where did that come from and why is it related to this?
+
+using human thought to fill inthe parts of AI
+UI
+  possible related cards hover in periphery
+  on the left of the screen are matches that scored higher because of temporal proximity
+  on the bottom of the screen are cards that didn't match as well but have been neglected
+  on the right of the screen
+    left-right axis: time-match
+      3d projection into a 2d concept
+        putting two incompatible measurements on the same axis creates a new dimension
+          "importance" or "weight"
+            time is 2d, it's both the 4th and 5th dimension
+              4th dimention is bidirectional nature of time
+                5th dimension is created by putting the unrelated forces
+                  causality and its opposite
+                on the same axis
+  edit mode, drag/traverse mode
+    manual traversal, select card and through which connection
+      future suggested links weighted based on path taken into node
+  filter view based on which
+  manual connection: narrative
+  select hover:
+    option to create an adhoc connection from this word to another card
+    algorithm: analyze adhoc connections to try to improve future connections
+      combine 2
+      split
+N-dimensional kanban
+cyborg
+  you can think of it as human filling in for parts computer AI can't do
+    instead of thinking of it as a way to write down your thoughts
+problem: need faster / more acurate input than keyboard
+  advanced speech to text? combination of speech and gestures?
+overal philosophy and strategy of use: how do I simplify/reduce/combine/elaborate these?
+  agile-driven software development
+    Skype screen share design /
+      devops bootstrap
+         bootstrap process
+           1. architecture - determine infrastructure needed for project
+//machine learns from patterns between abstraction and implementation
+  //abstraction->implementation
+//mvp: kanban with N-dimensional connections, draggable
+//social
+  //private vs shareable
+  //embed images, video clips (youtube), traversal used as education, comedy
+    //wikipedia translated into this format?
+use case:
+writer working on a story, knows outline
+use case:
+traversal through pieces of music during artist's performance pick next musical phrase to play based on the audience's reaction (being fed through a traversal algorithm)
+
+humans exist to predict the future
+  that is,
+    predictanticipate
+      contrasted with portmantou predicipate
+        new word replaces old words and gets new meaning
+      predictanticipate encompasses entirety of both words
+        //maybe related to card relationships
+
+
+I think I invented a software design that will help people like me organize their thoughts
+  imagined telling this to a friend
+  realized there was some importance to putting it into words
+a tool and a process
+  selling both
+
+type of edit:
+  elaborate on vague idea
+  revise
+  meta edit:
+    reorder
+    add/remove link
+      interface?
+      types of links
+
+
+lose specific memories and in their place we have summaries and conclusions
+  sometimes summaries are lost too, and conclusions are obfuscated
+    brain tickle: I know this means something, but I can't figure out why I know that!
+
+
+famous philosopher Friedrich von Bullshit
+ (made up name to make this bullshit
+placebo is a story to tell
+what about using a story as a panacea?
+  jesus was a failed hypothesis
+    a story that makes people good
+    a story that makes people feel like they are good
+      societies are collective organisms that exist on a much larger timescale than we do
+a cure that cures you by telling you it's a cure
+        the more we imagine the rest of humanity as a part of us
+        the more conscious the organisms become
+          organisms (cultures) overlap, are not distinct
+            two sponges, seived and mixed together, become one or mix?
+
+sneed:
+simple
+
+conservative
+con
+  word overlap association pun
+  gives a negative connotation to a neutral word
+    conjures to mind an overlap of conservatives and cons
+
+
+typeos are interruptions
+  always testing what I wrote
+    write longer, go back and test later
+
+word processor mixed with 3d kanban board
+application: coding with pseudo-code
+  refine relationships between pseudo-code snippets
+    this-then-that
+      multiple similar "that": can they be generalized into a function call?
+    generic 1:1, 1:n, n:1 relationship placeholder
+      to be filled in later
+tracking in git if other devs don't use same technology?
+\_ final view is finished source code, nearby linked documents are
+      file relation:
+        needs to know where it is
+        needs to be in a location relative to each other
+process patent
+ui design patent
+possible cognitive treatment
+  possible treatment of certain cognitive conditions
+
+new card
+  connected to old card through temporal proximity
+    old card has been shifted to the left
+  //
+
+p2p document connections facilitated by hosted website but traffic p2p
+  connection made between two documents, agree on licensing as part of the handshake
+    which means we need a handshake protocol
+
+traversals:
+  revision history
+  translation
+
+human language translation algorithm
+  break document into phrases
+    break phrases into and words
+  look for direct and approximate translations between individual words
+
+guess-and-check regexp pattern generation and match as self-evolving matching algorithm
+  pass on newly generated regexp along with test result
+
+fortunately captcha has been training us to use this software
+  do the thinking parts of AI that computers can't do
+
+build a tool that helps build itself
+
+where does this object live?
+  file system
+    recursive design process
+	  stop case
+
+view axis
+  time created : match score
+  generation method
+  	split : combine
+
+later
+
+relation:
+  leads to / implements / facilitates
+
+architecture:
+  software
+    server side
+	  oAuth / fb app?
+	p2p client side
+  data flow
+    actors
+	  user1
+	  userN
+	  client software
+
+constant meta process improvement
+  link document to process
+    link type: improves process
+	link type: needs improvement
+	  human traversal and evaluation of links to process node may lead to improvements
+
+turn connections into cards and use cards as intermediate connectors
+cards
+  (apple)
+  (pear)
+  connection (apple)<->[fruit]<->(pear)
+automatically suggest turning
+problem:
+  the more objects to check, the slower it goes
+    heuristic: hierarchies of broad categories to check instead of checking each individual object
+	  determined by which words in this object are most likely to define it
+	    given their appearance vs relative frequency
+
+object relationships:
+  peers
+
+handshake
+  depth allowed
+  license
+  gpg, certificate authority
+
+translate wikipedia, tvtropes, kym
+complex choose-your-own-adventure
+
+mvp:
+  basic text editor with connectors
+  basic web page reader with visual links
+    using transparency
+	relevant card weight as page scrolls
+	  wikipedia translation use case: show blurb and picture (if available)
+        next layer: user-suggested connections to other pages
+		  user's "bookmarks"
+	  scroll percentage, xy position of link on page
+	    all done in-browser, not server side, can be served as static html and javascript
+		  browser add-on?  fullscreen?
+
+programmable connection heuristics
+  human gets final say on if connected and type of connection
+    type of connection could be a placeholder, to be defined later
+	  I think these three things are connected (hypothesis) but I'm not sure how yet
+	    background (z axis) peripheral connection suggestions could try to form connections from dictionary definitions
+
+software defined as objects and interactions
+  interactions can be represented by an object
+
+code-as-process-as-code
+
+might
+
+next-level compiler
+  connection to a node can trigger an event (external program, code snippet, etc)
+
+
+connection heuristic, type subjective and categorical
+  connection between A and B is humor
+  difference between A and B and similarity between A and B are both types of connections
+
+publish
+  hides lower level
+  publish level different for different subscribers
+
+lock certain memories (cards from the past) from being brought up
+  create broad categories
+    something from this category matched your current card, do you want to see?
+	  repressed memories
+	  hard block vs soft block
+	    hard block won't even show that the category matched
+
+just start writing what you're thinking
+when you think a new thought, make a new card
+  connection type can be a placeholder for now
+
+database collections
+  objects
+    has
+	  content
+	  title
+	  connections
+  connections
+    has
+	  type
+	  corresponding object
+	  //
+
+external links between documents
+local document store can pull from any other document
+  links to external documents could
+
+"export" connector can contain instructions on how to link the contents of two cards into a single exported document
+  complex export algorithm
+
+
+
+color coding of connectors based on type
+color coding of objects based on content
+}}

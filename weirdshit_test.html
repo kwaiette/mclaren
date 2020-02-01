@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<script language="javascript">
+			const MAX_ARRAY_LENGTH = 4294967000;
+			const MAX_AGE = 99;
+			var dimensionalArray = Array();
+			var dimensionsEntered = Array();
+			var dimensionsExited = Array();
+			var numUnitsActive = 0;
+			var numUnitsProduced = 0;
+			var numUnitsDied = 0;
+			class Unit {
+				/*
+			  var isDead;
+			  var d;
+			  var ds;
+			  var litterSize;
+			  var iterationsSurvived;
+			    */
+
+			  constructor() {
+				  this.isDead = false;
+				  this.d = [];
+				  this.ds = [];
+				  this.iterationsSurvived = 0;
+				  this.litterSize = 0;
+				  for (var i = 0; i < 10; i++) {
+					  this.d[i] = Math.floor(Math.random() * 100 - 50);
+					  this.ds[i] = Math.floor(Math.random() * 100 - 50);
+				  }
+				  numUnitsActive++;
+				  numUnitsProduced++;
+				  //console.log("constructor");
+			  }
+			  die() {
+				  this.isDead = true;
+				  numUnitsActive--;
+				  numUnitsDied++;
+			  }
+			  reproduce() {
+				  //console.log("reproduce");
+				var idx = 0;
+				for (var i = 0; i < this.d[0]; i++) {
+				  idx += this.d[idx];
+				  idx %= MAX_ARRAY_LENGTH;
+				}
+				//d[idx] is litter size
+				//reproduce d[idx] times
+				if (this.d[idx] < 20) {
+					this.d[idx] += 20;
+				}
+				this.litterSize = this.d[idx];
+				//debugger;
+			    for (var j = 0; j < this.d[idx]; j++) {
+				  var vectors = [];
+				  var vectorMaxSize = [];
+  			      for (var i = 0; i < this.d.length; i++) {
+  			        //vectors[i] = this.d[i] * Math.rand(-1*j,1*j)
+					vectors[i] = Math.floor((this.d[i] * Math.random() * j) - (j/2));
+					vectorMaxSize[i] = Math.floor((this.ds[i] * Math.random() * j) - (j/2));
+  			      }
+				  if (Math.random() > 0.9) {
+					  vectors.unshift(Math.floor(Math.random() * 100 - 50));
+					  vectorMaxSize.unshift(Math.floor(Math.random() * 100 - 50));
+				  }
+				  //console.log("newUnit?");
+			      Unit.newUnit(vectors, vectorMaxSize).travel();
+			    }
+			  }
+			  travel() {
+				  //console.log("travel");
+				var that = this;
+			    setTimeout(function() {
+					var derivedDestinationIndex = 0;
+				    for (var i = 0; i < that.d.length; i++) {
+				      derivedDestinationIndex += that.d[i] * that.ds[i];
+				    }
+				    derivedDestinationIndex %= MAX_ARRAY_LENGTH;
+				    //enter path
+				    dimensionalArray[derivedDestinationIndex]++;
+					dimensionsEntered[derivedDestinationIndex]++;
+					setTimeout(function() {
+				      if (dimensionalArray[derivedDestinationIndex] > 1 || that.iterationsSurvived > MAX_AGE) {
+				        that.die()
+				      }
+				      setTimeout(function() {
+				        dimensionalArray[derivedDestinationIndex]--;
+						dimensionsExited[derivedDestinationIndex]--;
+						if (!that.isDead) {
+							that.iterationsSurvived++;
+							if (that.iterationsSurvived % 10 == 0) {
+								console.log(
+									that.iterationsSurvived
+									+ " "
+									+ that.litterSize
+									+ " "
+									+ that.d.join(' ')
+								)
+							}
+							//console.log("reproduce+travel",that.iterationsSurvived);
+							that.reproduce();
+							that.travel();
+						}
+				      },that.d[length-1]);
+				    },that.d[length-1]);
+				}, this.d[this.d.length-1]);
+			  }
+			  static newUnit(d, ds) {
+				  //console.log("NEW UNIT");
+				  var u = new Unit();
+				  for (var i = 0; i < d.length; i++) {
+					  u.d[i] = d[i];
+				  }
+				  for (var j = 0; j < d.length; j++) {
+					  u.ds[j] = ds[j];
+				  }
+				  return u;
+			  }
+			}
+//what if every property was a dimension
+//litter size is a dimension at some index in the array
+//shifting a new dimension could shift which index now represents litter size
+// contents of x=d[n] determine which index d[x] will be used as litter size
+//   idx = 0;
+//   for (i = 0; i < d[0]; i++) {
+//	   idx += d[idx];
+//     idx %= MAX_ARRAY_LENGTH;
+//   }
+//   reproduce d[idx] times
+          var u1 = new Unit();
+		  u1.travel();
+		  drawCanvas();
+
+		  //canvasArray =
+		  function drawCanvas() {
+			  setTimeout(function () {
+				  var rpt = document.getElementById("theReportDiv");
+				  rpt.innerHTML = 'a:' + numUnitsActive + ' p:' + numUnitsProduced + ' d:' + numUnitsDied;
+				  var cvs = document.getElementById("canvasTheFirst");
+				  var ctx = cvs.getContext("2d");
+				  var WIDTH = 400;
+				  var HEIGHT = 400;
+				  for (var i = 0; i < WIDTH; i++) {
+					  for (var j = 0; j < HEIGHT; j++) {
+
+						  calcdIdx = (i*WIDTH + j)%MAX_ARRAY_LENGTH
+						  if (typeof dimensionalArray[calcdIdx] == 'undefined') {
+							  dimensionalArray[calcdIdx] = 0;
+							  dimensionsExited[calcdIdx] = 0;
+							  dimensionsEntered[calcdIdx] = 0;
+						  }
+						  if (dimensionalArray[calcdIdx] != 0) {
+							  /*
+							  ctx.beginPath();
+							  ctx.moveTo(j, i);
+						      ctx.lineTo(j+5, i+5);
+						      ctx.lineWidth = 1;
+						      // set line color
+							  var intensity = 128 + (dimensionsEntered[calcdIdx]) * 15;
+							  var tentStr = intensity.toString(16);
+							  console.log(calcdIdx,'#', tentStr, i, j);
+						      ctx.strokeStyle = '#'+tentStr+tentStr+tentStr;
+						      ctx.stroke();
+							  */
+					  	  /*} else {
+							  setTimeout(function() {
+								  ctx.beginPath();
+								  ctx.moveTo(i,j);
+							      ctx.lineTo(i+1, j+1);
+							      ctx.lineWidth = 1;
+							      // set line color
+								  var intensity = 255;
+								  var tentStr = intensity.toString(16);
+								  //console.log('#', tentStr, i, j);
+							      ctx.strokeStyle = '#'+tentStr+tentStr+tentStr;
+							      ctx.stroke();
+							  }, 1000)*/
+						  }
+					  }
+				  }
+				  drawCanvas();
+			  },1000);
+		  }
+		</script>
+	</head>
+	<body>
+		HI
+		<canvas id="canvasTheFirst" width="400" height="400"></canvas>
+		<div id="theReportDiv">&nbsp;</div>
+	</body>
+</html>
