@@ -2827,9 +2827,40 @@ hypothesis:
   intelligence is a fairly simple algorithm
     or combination of simple algorithms
   that combine to form extremely complex thoughts, behaviors, etc
-  algorithms aren't self-
+  algorithms aren't self-contained and require external stimuli
+    sight, smell, hunger, pain, etc
+
+backfire effect because of initial self-testing
+
+idea: use vr headset to visual diff
+  could test with Meld, streaming to phone in vr headset
+
+what is time
+  split
+
+acting method:
+if script makes you think these people wouldn't really say that in this situation
+  imagine a universe in which these words do make sense in this situation
+    what would their facial expressions be if
+
+one-way communication, reflected back
+  body language
+
+
+people are afraid to think crazy thoughts
+  thinking crazy thoughts is good, you just need to test them
+    what would the universe be like if crazyThoughtX were true?
+
+conservative
+con
+  word overlap association pun
+  gives a negative connotation to a neutral word
+    conjures to mind an overlap of conservatives and cons
 
 treat people like they want to do the right thing but sometimes need help
+
+remember thinking as a teenager that html could be a gateway to a higher order of thinking because of hyperlinks
+
 
 0/1
   0

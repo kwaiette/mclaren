@@ -25,6 +25,10 @@ word processor with 3d graphics for connecting ideas
           ifttt?
 where did that come from and why is it related to this?
 
+card change triggers
+  lint
+  commit to scm
+
 using human thought to fill inthe parts of AI
 UI
   possible related cards hover in periphery
@@ -73,6 +77,13 @@ use case:
 writer working on a story, knows outline
 use case:
 traversal through pieces of music during artist's performance pick next musical phrase to play based on the audience's reaction (being fed through a traversal algorithm)
+case study:
+  use mvp editor to
+
+connectors contain significant words that its cards share but aren't in other connectors
+
+views:
+  arrange objects on screen
 
 humans exist to predict the future
   that is,
@@ -82,6 +93,8 @@ humans exist to predict the future
       predictanticipate encompasses entirety of both words
         //maybe related to card relationships
 
+algorithm to translate connections to visible arrangement of objects on screen
+  axes
 
 I think I invented a software design that will help people like me organize their thoughts
   imagined telling this to a friend
@@ -118,15 +131,134 @@ a cure that cures you by telling you it's a cure
           organisms (cultures) overlap, are not distinct
             two sponges, seived and mixed together, become one or mix?
 
-sneed:
+need:
 simple
 
-conservative
-con
-  word overlap association pun
-  gives a negative connotation to a neutral word
-    conjures to mind an overlap of conservatives and cons
+components:
+  client app
+    UI
+	  center text editor
+	    rich?
+	  peripheral connected cards
+	    x-axis: temporal proximity : relevance (score)
+		  another dimension
+		y-axis: nodes already connected
+		z-axis: how many connections away, deeper (but perhaps trivial) connections
+		zoom in / out: see broader and more specific
+        minimize
+	data store
+	machine to run it on
+  server app
+    facilitate p2p connections
 
+template for software development process
+  high level design domain
+    cards representing high level objects
+  connections between cards:
+    refine
+	create
+	advance
+	execute
+
+stereoscope
+  second view possibilities:
+    view copy but with potential change made
+	view another card as center
+	  //
+vr?
+  take advantage of stereoscopic vision to quickly identify differences and patterns
+    disabilities? lack of depth perception, blind in one eye
+
+replaces text editor, trello, slack, powerpoint
+
+use case:
+  visualize search results
+
+
+hypothesis:
+  this model will enable a single developer to create more complex software than they could otherwise
+    more complex by simplifying pieces
+
+share document:
+  by traversal/level
+  by custom traversal
+
+template for js object
+  (obj)->[unit]->(unit tests)
+    onchange run unit tests
+	onchange trigger code review
+	onchange visually represent affected nodes to some depth
+
+"levels" are domains
+
+security:
+  pick a traversal and a depth for a security level to grant permission to
+    types of permissions, read/write/etc
+
+connection type:
+  therefore (directional)
+    logic
+    causation
+  follows (directional, post hoc)
+
+self (user) as card
+  reaction connectors between self and cards
+    combinations - wtflol
+	  (self)->[wtf]->(cardX)
+	  (self)->[lol]->(cardX)
+	  visually represent complex connection?
+	    two differently colored lines twisted together
+
+on highlight:
+  option to create a new card or connect to existing one
+    creating a connection from selected text actually creates a new node containing only selected text, makes a connection from the source node to the
+	  ("some text [selected text] some more text")->("selected text")->(related card)
+
+document owner can reject or accept proposed connections and cards from other users
+
+self (full) view of own document, "what others see" view of document based on permissions
+
+invalidate connection
+  connection is not removed, it still exists in db, but it is not displayed (or is displayed as invalid to show successfully tested and rejected hypothesis)
+
+p2p social media:
+  you control your data
+  we don't need to exploit your data because we don't have to pay to host it
+  be sure to back everything up!
+    github?
+
+connector:
+  contains all the words in its cards
+  as connectors are compared and commonalities found,
+
+design, documentation, implementation in one package
+  import existing projects?
+    algorithm to split files into components? opposite of export algorithm
+
+used as a reader:
+  rich storytelling with pictures and references that accompany text
+    description compares a man to a lion
+	  connected card in background displays picture of a lion
+	    evocative
+
+connector to placeholder representing one or many cards
+
+
+cards: punch cards
+  punch card ->
+
+presentation:
+  audio input, speech-to-text brings up related cards
+
+use case:
+  N-dimensional kanban
+    connectors: requirement
+
+visualize and organize
+
+changing contents of a card flags connectors/cards
+
+//comment connector
 
 typeos are interruptions
   always testing what I wrote

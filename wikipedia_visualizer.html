@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Wikipedia Visualiser</title>
+	</head>
+	<body>
+		<div id="mainView"></div>
+		<!-- peripheral view divs will need to be created, but probably not in static html -->
+	</body>
+</html>
+
+<!--
+get wikipedia page
+  extract contents of #firstHeading and #bodyContent
+  foreach link to another wikipedia page, get that page's header/content
+    extract blurb from #bodyContent -> #mw-content-text -> #mw-parser-output
+	  before #toc
+	extract image
+	  .infobox
+
+objects
+  main viewer
+    onscroll: update positions (z-index) and transparency of linked cards based on user's current position on page and that link's position on the page
+  card[]
+    onclick: move to main viewer and move main view to periphery
+	  page that was previously main view gets moved to the left (temporal proximity, history)
+	property: .mainview - use css to hide pieces for "summary" view when not in main view
+-->
