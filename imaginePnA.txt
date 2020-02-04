@@ -1,0 +1,159 @@
+imagine P&A as a MMO
+  main story / questline, company's main objectives, VA software dev
+  side quests
+    fitness
+	collaborative storytelling
+	  how does process improve story?
+	  how does story improve process?
+	  how does story relate to main story (software development)
+
+imagine the future of P&A as a story you're telling to future interviewer about how you were a part of this amazing company
+  imagine how it got to be that way
+  as things change IRL,
+
+imagine software development as movie development
+  gradient between feedback
+    we pay testers
+	audience pays us
+	  audience feedback goes into next product
+
+p&a culture lead me to my ideas
+  try to imagine how other company cultures could have lead to other ideas
+
+collaborative storytelling project
+==================================
+goals
+  produce an entertaining story
+  learn about process
+  refine process
+  apply process to software development
+  learn what storytelling and software development have in common, to make us better at both
+  pie-in-the-sky (shoot for the stars, maybe you'll hit the moon):
+    revolutionize both software and entertainment
+	create a good story and a rich fictional universe to tell more stories in, sell idea
+
+notation:
+  MD
+  elaborate ->
+  alternate \_
+  comment //
+  indentation for smaller ideas that make up the bigger ones
+git - story as source code
+what syntax will emerge?
+patching? branching?
+dependencies
+  {filename}
+  different relationship types
+    elaborate
+	implement
+entrypoint
+MD viewer replaces #variables# with names
+
+philosophy:
+  anyone who says something can't be explained or loses something through
+
+based on premise, what's something interesting that could happen?
+
+premise - moment
+backstory -
+
+every point in the story has a backstory and outcomes
+if the moment changes, the backstory and the outcomes could change
+
+intersection between my past experience and the P&A culture
+
+testing a scene:
+  imagine it as a comedy
+  imagine it as a drama
+  imagine it as a horror
+    what do the differences in how it played out tell you about this universe
+types of checks
+  deus ex machina?
+goals of scene testing:
+  see if it works with premise, other scenes, etc
+  feedback to possibly improve premise, outcome, or process
+D20
+always comparing to real world
+  would it be possible in the real world?
+  if not, do the rules of this universe make it possible?
+
+idea for software that improves both collaborative story development and collaborative software development
+
+process
+  come up with premise
+    [zombie robots exist]
+  imagine interesting situations that could happen based on that premise
+    [zombies attacking each other to spread virus, attack humans as a byproduct of that virus (anthropomorphic robots)]
+  imagine how premise and situations could be possible - backstory
+    [in the future, advanced robotics and AI]
+  imagine how situations can be woven together to form an interesting story
+    develop characters, imagine how they would act given premise and backstory
+	does character development change back story?
+	flesh out universe as needed, but leave things undefined until character or story requires
+	  [main character is a fan of old (contemporary) zombie movies, likes to prep]
+
+
+use # for variables
+#MainChar#
+
+file system is heirarchical, but we need a graph
+  symlinks
+  betware loops
+
+premise
+situations
+characters
+environment
+
+roles:
+  creator
+    make a new card from scratch
+	  premise
+	  plot point
+	  character
+	  setting
+  refiner
+    elaborate on contents of card
+	  character's personality
+      details about the city the story takes place in
+  advancer
+    creating a new card from previous card(s)
+  executor
+
+
+recursive process
+software development as storytelling
+  think of something you want changed in the software universe
+  imagine what to change in the code
+  imagine how that change will affect other parts of the
+characters are like objects
+  they have interfaces
+  interactions with some characters different from others
+architecture == premise and backstory
+objects == people (characters), places, events
+
+imagine tool for distributed collaborative development
+  N-dimensional kanban
+  graph visualizer / editor
+
+imagine applications:
+  use development model to write the future of the company
+
+
+convey an idea:
+  building up how you got to the idea for understanding and excitement building
+  then
+  telling how that idea effects other things
+
+
+excitement over time may indicate importance
+
+needs all contributor types, including curmudgeons
+
+causality
+  common cause
+  ad hoc ergo propter hoc
+  coincidence
+
+
+integrating process with development to create products

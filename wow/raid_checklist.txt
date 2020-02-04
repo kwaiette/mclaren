@@ -1,0 +1,6 @@
+consumables
+  pots
+  food
+  elixirs / flasks
+reagents
+gear

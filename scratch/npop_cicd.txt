@@ -1,0 +1,6 @@
+todo:
+  fix aws getlogin
+  add fortify
+  add soapui
+  add sonarqube?
+  

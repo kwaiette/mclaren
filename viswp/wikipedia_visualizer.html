@@ -1,6 +1,15 @@
 <html>
 	<head>
 		<title>Wikipedia Visualiser</title>
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+		  crossorigin="anonymous"></script>
+		<script src="card.js"></script>
+		<script>
+			var pos = new Positioner("#mainView");
+			pos.displayPage("https://en.wikipedia.org/wiki/Koala");
+		</script>
 	</head>
 	<body>
 		<div id="mainView"></div>

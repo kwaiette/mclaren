@@ -1,0 +1,95 @@
+animals are psychic
+  - where is the water?
+  - where are the predators?
+  - if you can predict the future (water will be there when I get there) you have a better chance at survival
+  - if you're wrong, you expended energy with no reward
+
+humans got better at predicting the future
+  - it hasn't rained in several days, so that one pool will be dried up; we need to go in the opposite direction
+  - predicting the future in a sophisticated way increases survival and reduces risk
+
+predict the future by creating the future
+  - irrigation
+    * don't need to know where the water is, we put it in pipes!
+  - weapons
+    * predators? psh! we got this.
+
+story telling
+  - stack up enough pieces so we can stand on top of it and see the big picture
+
+stereoscopic vision
+  - easy for the brain to see small differences between two slightly different images side-by-side / overlapping
+  - principle can be applied to things other than vision
+    * take
+
+agile process as collaborative story writing process
+  - P&A culture
+    * creator / refiner / advancer / executor
+	* fantasy
+  - looking at agile software dev and agile writing stereoscopically
+    * where do they overlap?
+	* what's different about them?
+	* how does this knowledge help us understand both agile process and software dev?
+
+what would agile process look like applied to writing?
+  - ideas start out as cards, like Trello
+    * premise
+	* plot points
+	* settings
+  --cards are refined
+    * physical and personality attributes of characters
+  --cards are advanced
+    * create new cards representing events that advance the plot or the character development
+  --cards are implemented
+    * the actual writing, in a format people would want to read
+  - testing
+    * P&A culture
+	  + psychology: "I don't think this character would do this, based on their personality type and what we know about humans"
+	    - should we change the character to match
+	    - does the character need to be non-human to explain the personality difference? if so, what's different about that species that makes them behave differently? physical, cultural, etc?
+	  + physics: "This couldn't happen this way with the physics of our universe"
+	    - change physics of fictional universe?
+		- change event in fictional universe to match physics?
+	  + board gaming: checking interactions between rules in universe
+	    - note: in development, we don't need to / shouldn't define rules until we need to in order to develop the story
+	*
+
+
++=======================================================================+
+| +==================================+                                  |
+| |(Tommy)                           |                                  |
+| | \  \->[refine]->(has brown eyes) |                                  |
+| |  \->[refine]->(is tall)          |                                  |
+| +==================================+                                  |
+|   \->[advance]->(something happens that changes how he sees the world)|
+|                  \->[advance]->(that "something" should be...)        |
++=======================================================================+
+  \->[implement]->("It was a hot summer morning when Tommy...")
+
+P&A "side quest"
+  - optional story collaboration
+  - goals:
+    * write an entertaining story
+    * learn about process
+	* apply what we learn to software dev
+	* possibly:
+	  + create new tool for collaborative development
+	  + make $$ off of story
+	  + revolutionize fiction and/or software development
+
+what tools might help this process?
+  - process and development integration
+  - cards (objects) and connections
+    * refine, implement, etc
+
+coupling process with development helps both
+  - process can also feed back into process development
+    * [refine] process connectors/cards
+
+how does this relate to software development?
+  - a piece of software as a fictional universe
+    * has its own rules
+	* has:
+	  + characters (objects)
+	  + settings (architecture), plots (data getting from )
+  - ABT: Always Be Testing

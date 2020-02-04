@@ -29,6 +29,9 @@ card change triggers
   lint
   commit to scm
 
+alternate universe sandbox for changes
+  only the parts of the graph that need to change, taking into account dependency connections
+
 using human thought to fill inthe parts of AI
 UI
   possible related cards hover in periphery
