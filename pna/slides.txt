@@ -55,15 +55,15 @@ what would agile process look like applied to writing?
 	*
 
 
-+=======================================================================+
-| +==================================+                                  |
-| |(Tommy)                           |                                  |
-| | \  \->[refine]->(has brown eyes) |                                  |
-| |  \->[refine]->(is tall)          |                                  |
-| +==================================+                                  |
-|   \->[advance]->(something happens that changes how he sees the world)|
-|                  \->[advance]->(that "something" should be...)        |
-+=======================================================================+
++========================================================================+
+| +==================================+                                   |
+| |(Tommy)                           |                                   |
+| | \  \->[refine]->(has brown eyes) |                                   |
+| |  \->[refine]->(is tall)          |                                   |
+| +==================================+                                   |
+|   \->[advance]->(something happens that changes how he sees the world) |
+|                  \->[advance]->(that "something" should be...)         |
++========================================================================+
   \->[implement]->("It was a hot summer morning when Tommy...")
 
 P&A "side quest"
