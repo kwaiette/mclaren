@@ -449,5 +449,185 @@ hierarchies of taste
 
 
 next gen social media
-serverless, peer2peer, but with central DDNS registries
-//
+serverless, peer2peer
+with central DDNS-like registries
+  possibly distributed
+  anyone can be a registry if they have always-on server with static IP
+you control what you see
+integrated search
+  self-aware searching
+  related matches, show relationship
+  results are based on your peers
+    filter out a peer to get better matches
+trust no one
+end-to-end encryption
+video sharing
+file sharing?
+  encryption
+graph view
+  each node is a nanoservice (javascript?)
+services
+  standard protocols
+  openapi (swagger) defs for non-standard
+disk cleanup algorithm:
+  this is old and hasn't been used in a while, do you want to keep it?
+should have limited function when not connected to internet
+
+perception of establishment
+self-perception as underdog
+political parties
+
+
+language of fashion
+  muted colors, yes I know this looks good but I'm not going to be too in-your-face about it
+  loud colors, yes I do know I put these colors and patterns together, thankyouverymuch
+
+
+top down
+bottom up
+
+privatized military
+  it's currently socialism
+  satire
+    we should model our military after public roads: contract out to the lowest bidder
+    the military has been an inefficient drain on our taxpayers for far too long
+    .
+    watch conservatives argue for socialism
+
+scooby doo unmasking
+what's really behind conservative war on education and information (news)?
+wage slavery!
+
+
+brain algorithms
+  don't take something that isn't yours without asking
+  I didn't want to interrupt you
+  if it wasn't important enough to interrupt me, then it wasn't important enough to take it without asking
+  elements:
+    don't want to interrupt
+    don't want to be interrupted
+    want a thing
+    don't want a thing to be taken
+    asking permission
+
+away from heirarchy, toward weighted graph
+
+different pronunciations make us imagine a different world
+anglicizing makes us turn their world into ours
+
+marketplace of nations
+opt-in
+sovereign citizens
+
+messiness as a defense mechanism
+  hide
+
+the future is process
+
+rpg idea: "weave" words (syllables) together to make spells; each syllable has its own properties (like elements) but combining them can create new effects
+
+money is tautology
+making money is good because money
+when I didn't have, she gave
+
+I'm not here to perform, I'm here to share this experience
+
+abuse, self-replicating, virus
+  abuse is bad
+  this is bad, therefore abuse
+  response strategies
+  - that's not abuse, shame for thinking it is, devalues real abuse
+  - accept everyone's perception of abuse
+  if everything bad is abuse, the word abuse becomes meaningless
+  shaming the abused makes them less likely to report abuse and more likely to perpetuate it
+    NOT perpetuating it means admitting to victimhood
+toxic masculinity
+  masculinity by itself isn't viral/self-replicating
+  masculinity is an idea that can exist with different attributes in different minds, while sharing a broad definition
+  people can disagree with others' individual attributes of masculinity without trying to force their own views
+  the idea that mine is right and theirs are wrong, opens the door to toxicity
+  shame is what makes it viral
+    masculinity is seen as a virtue
+    people seen as more masculine are seen as leaders in the masculinity realm
+    when a masculinity leader uses shame to enforce his definition of masculinity
+      makes his version of masculinity more likely to survive to next generation
+      makes others believe that shaming nonconformers is masculine
+      makes others afraid of being exposed as un-masculine because of some aspect of themselves that is nonconforming
+        makes them look for things to shame in others before they get shamed themselves
+          creates culture of inward insecurity with outward blustering feigned confidence
+            and if you "can't handle" that culture, you're un-masculine
+    doesn't require leader
+      shaming bootstraps leadership
+idea + shame = idea exists in time as self-replicating
+virtue + shame
+
+scriptable process framework
+  card has
+    buttons
+    menu
+    content
+    connections
+    type
+      inheritance
+    events/handlers
+
+
+billionaires. have. negative. value.
+
+capitalism breeds and harvests conformity
+
+how would you build this from scratch?
+self-replicating
+bottom up
+top down
+capitalism kills individuality
+how is your reality affecting your thoughts?
+rock paper scissor
++
+nicotine built the modern world
+we're all fucking autistic
+aversion to the infinite
+art
+  beauty
+  communication
+    capital
+
+be a character
+philosophy of time
+
+philosophy of humor
+architecture is the music of collective effort
+
+imagine society built from the ground up to value taking care of all humans above all others
+
+told-ya-so communicating into the future
+
+examined vs unexamined
+
+chauvanism of the self
+
+3d rectangle is self replicating shape
+
+as long as there
+
+comedy by misunderstanding
+
+rape victim "infiltrates" toxically masculine spaces
+  construction sites
+  military
+toxic shitbags rape this person
+this person shrugs it off and then puts a bullet in their heads
+
+you ignore the writings on the wall at your own peril
+
+I will become a character
+that wasn't my decision
+just a description
+
+distributed p2p cloud
+  containerized
+  lambda
+  //
+
+tell a joke like you've told it a hundred times
+but
