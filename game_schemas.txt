@@ -233,7 +233,7 @@ RDC
 			restore original size / position?
 			keep absolute size / position?
 			keep relative size / position?
-s		closed windows
+		closed windows
 			reopen?
 		opened windows
 			close?
