@@ -97,6 +97,10 @@ you interact with npc A, a member of race A
 					my + was negated by A's background, which caused A's -
 					x = -y
 					x = -Ay, {A| -1<=A<=1}
+	say something that npc A reacts to as if it was negative, but in A's culture that reaction is positive
+		my + caused A's +
+			my + caused - A's -
+
 
 MISSION: you have to get this idea to the king
 	you find out about who has the king's ear
