@@ -9,7 +9,8 @@ schemas
 
 game where you interact with other characters, choose what to say based on how you think they will react
 	if they react in a way that matches what you expected, your schema is updated
-		ff
+		commentary on stereotypes
+		educational re: brains and psych
 
 everyone of species X is wearing plain gray clothes
 	when an npc tells you how to identify a sect by their clothing, those npcs are suddenly wearing the uniform
@@ -22,3 +23,8 @@ do you want to build a schema?
 
 your schema suggests that
 	this npc will do X if you say A
+
+manually adjust schema
+	you now interpret this group's actions as hostile
+		they will attack you
+		if you imagine that they are hurting you, your HP goes down
