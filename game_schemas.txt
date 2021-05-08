@@ -289,6 +289,10 @@ visiual
 	if i can see them, they can see me
 		can they perceive me?
 		even with gravitational lensing?
+		assuming we're both able to detect the same frequencies 
+			night, i can see them but they can't see me if i have infrared
+				still blocked by LOS
+
 audio
 	i can hear them but i can make my sounds detectable only at a shorter distance
 		are others masking their sound?
