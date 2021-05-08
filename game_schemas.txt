@@ -109,7 +109,28 @@ you're given 2000D, you trade it for 20B
 	you trade 19B for 3000D, then trade 2000D for 20B
 		you kept 1B in savings
 		you traded 19B for 3000D, you now have 3000D + 1B = 3B
-		you kept 
+		you kept 1000D, you now have 3
+20B
+	19B -> 3000D
+1B, 3000D
+	2000D -> 20B
+1B, 1000D, 20B = 21B, 1000D
+	1000D -> 10B
+21B, 10B = 31B
+
+1A <-> 10B <-> 100C <-> 1000D
+2A <-> 20B <-> 200C <-> 2000D
+       20B --> 19B --> 3000D
+	    \-> 1B
+	       
+               19B -> 3000D
+               19B <-> 190C <-> 1900D
+               18B <-> 180C <-> 1800D
+               17B <-> 170C <-> 1700D
+
+3000D <-- 19B <-> 1900D
+
+       19B <-> 3000D
 
 MISSION: you have to get this idea to the king
 	you find out about who has the king's ear
