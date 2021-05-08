@@ -42,3 +42,15 @@ X
 	should look like biggest point is in the middle
 		another reality is pushing its way up in the middle
 		making it grow at the ends, balloon
+	as interaction between nations increases, the middle area increases
+		less interaction decreases middle area, increases end balloon
+	
+types of interactions
+	increase interaction between nations
+		charity
+		trade
+		social
+			concerts, dances, social functions that bring the nations together
+	decrease interaction between nations
+		violence
+		subterfuge
