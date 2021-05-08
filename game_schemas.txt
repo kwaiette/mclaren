@@ -70,6 +70,13 @@ have to convince people that it's a good idea so it will get to the decision mak
 							ACH,ACI, ACJ have AC's ear
 					BB,CC,DD have $INFLUENCE
 					ABE,ABF,ABG have $INFLUENCE-1
+					ABEK,ABEL,ABEM have $INFLUENCE-2
+					ABEK==ABFM, has two lines to AB, $INFLUENCE+1
+						|
+					       /\
+					      /  \
+					     -+   +-
+
 	->let's host a dance with Nation B!
 	<-good idea!
 	-
