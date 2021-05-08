@@ -248,6 +248,11 @@ solution: provide community welders
 		will put welders out of a job
 			solution:
 				give tax dollars to welders who make money at welding
+					considerations:
+						would cost taxpayers
+							buy equipment
+							monitor/maintain equipment
+							pay pro welders
 
 		
 
