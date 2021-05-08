@@ -290,6 +290,7 @@ visiual
 		can they perceive me?
 audio
 	i can hear them but i can make my sounds detectable only at a shorter distance
+		are others masking their sound?
 smell
 	shorter distance
 touch/taste
@@ -297,6 +298,11 @@ touch/taste
 should only trust people who taste good?
 	vaginal?
 		nah, plenty of bad people have sweet pussies
+some person
+	short range
+		repugnant
+	long range
+		can communicate
 
 
 
