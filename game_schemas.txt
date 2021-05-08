@@ -238,6 +238,17 @@ RDC
 		opened windows
 			close?
 
+
+problem: people need welders but they don't own them
+solution: provide community welders
+	problems:
+		people don't take care of welders, commons tragedy
+			solution: hire somebody to watch welders
+				problem: cost
+		will put welders out of a job
+			solution:
+				give tax dollars to welders who make money at welding
+
 		
 
 
