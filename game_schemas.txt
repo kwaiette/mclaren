@@ -62,7 +62,36 @@ have to convince people that it's a good idea so it will get to the decision mak
 		different nations could have different models, what gets accomplished depends on how an idea spreads through society
 			strategy for psychic nation: talk to everyone
 			strategy for representative democracy: talk to the people that matter
+			strategy for dictatorship: talk to the people who have the ear of the dictator
+				pyramid
+					dictator A
+						AB,AC,AD have his ear
+							ABE,ABF,ABG have AB's ear
+							ACH,ACI, ACJ have AC's ear
+					BB,CC,DD have $INFLUENCE
+					ABE,ABF,ABG have $INFLUENCE-1
+	->let's host a dance with Nation B!
+	<-good idea!
+	-
+	->let's host a dance with Nation B!
+	<-isn't that dangerous? (npc thinks Nation B people are violent)
+		->There will be security there, of course!
+		->
 
+outline format
+	document to master list, 1:*
+	master list to child list; 1:*
+	child list to child list; 1:*
+	fractal
+		travel between nations, create a connection between them (wormhole), put hands up because on the other side you'll be doing a handstand
+	links between lists
+
+when decision maker decides against your idea, player is given a narrative for why
+	I just don't think we can fit that in the budget
+		[narrator] he actually didn't really like the idea so he didn't bother looking for ways to make it work
+			budget: a line; a dimension
+			intent: intersects with budget
+			
 
 _^_
 other reality pushing into this one like magma forming a volcano
