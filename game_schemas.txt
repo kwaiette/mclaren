@@ -72,10 +72,26 @@ have to convince people that it's a good idea so it will get to the decision mak
 					ABE,ABF,ABG have $INFLUENCE-1
 					ABEK,ABEL,ABEM have $INFLUENCE-2
 					ABEK==ABFM, has two lines to AB, $INFLUENCE+1
-						|
-					       /\
-					      /  \
-					     -+   +-
+						| A
+					       /  \
+					      /    \
+					     -+     +- AB,AC
+					     /\     /\
+                                           -+  +- -+  +- ABE,ABF ACH,ACI
+                                           /   /    \  \
+                                         -+   +-    -+  +- ABEK,ABFL
+arbitrary base between digits
+<-MSD, LSD->
+	[0-3,0-F,0-Z,0-4]
+		represent difference between digits as a percent?
+		digits ABCD
+			A->B = 
+				A=1, => B=F
+				{A| A>=B}  {A} = [0B,1B,2B,3B]  {B} = [A0,A1,A2...AF]
+MISSION: you have to get this idea to the king
+	you find out about who has the king's ear
+	your reputation won't let you talk to the higher-ups
+	you have to find 
 
 	->let's host a dance with Nation B!
 	<-good idea!
