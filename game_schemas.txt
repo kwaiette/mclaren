@@ -203,6 +203,8 @@ coconut
 	is not milk
 coconut milk
 	milk from a coconut
+		not milk
+		is coconut
 	coconut-flavored milk
 		cow milk flavored with coconut
 			not milk from a coconut
@@ -210,3 +212,10 @@ coconut milk
 				not coconut milk
 				is coconut
 				is milk
+			is beverage
+		rice milk flavored with coconut
+			not milk from a coconut
+			not milk
+			is beverage
+	
+
