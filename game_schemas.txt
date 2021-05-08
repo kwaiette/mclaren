@@ -89,8 +89,14 @@ arbitrary base between digits
 				A=1, => B=F
 				{A| A>=B}  {A} = [0B,1B,2B,3B]  {B} = [A0,A1,A2...AF]
 your intention is to be kind
+you interact with npc A, a member of race A
 	say something that npc A thinks is rude
 		schema of that race is updated with how you think that race reacts to kindness
+			my + caused A's -
+				another way to see it
+					my + was negated by A's background, which caused A's -
+					x = -y
+					x = -Ay, {A| -1<=A<=1}
 
 MISSION: you have to get this idea to the king
 	you find out about who has the king's ear
