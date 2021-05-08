@@ -288,6 +288,7 @@ breadcrumb approach
 visiual
 	if i can see them, they can see me
 		can they perceive me?
+		even with gravitational lensing?
 audio
 	i can hear them but i can make my sounds detectable only at a shorter distance
 		are others masking their sound?
