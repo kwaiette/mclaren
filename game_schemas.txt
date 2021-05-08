@@ -219,6 +219,26 @@ coconut milk
 			is beverage
 	
 
+RDC
+	device with different screen dimensions connects
+		save window states
+		resize / reposition windows
+	device disconnects
+		restore windows to original size / position
+	device connects
+		save, resize
+		device resizes / repositions windows
+	device disconnects
+		resized / repositioned windows
+			restore original size / position?
+			keep absolute size / position?
+			keep relative size / position?
+s		closed windows
+			reopen?
+		opened windows
+			close?
+
+		
 
 
 
