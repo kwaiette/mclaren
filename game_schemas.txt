@@ -194,3 +194,7 @@ can I handle this request?
 
 Wayne Jensen (jensenw@gmail.com)
 
+detect input type
+	cursor makes big jumps
+		not likely mouse
+		probably touchscreen
