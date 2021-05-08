@@ -100,6 +100,10 @@ you interact with npc A, a member of race A
 	say something that npc A reacts to as if it was negative, but in A's culture that reaction is positive
 		my + caused A's +
 			my + caused - A's -
+hierarchy
+1A = 10B = 100C = 1000D
+2A = 20B = 200C = 2000D
+         \ 21B = 3000D
 
 
 MISSION: you have to get this idea to the king
