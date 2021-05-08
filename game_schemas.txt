@@ -1,0 +1,8 @@
+game
+interact w/ npcs
+schemas
+	race
+	gender
+		clothing
+		appearance
+			
