@@ -84,6 +84,7 @@ outline format
 	child list to child list; 1:*
 	fractal
 		travel between nations, create a connection between them (wormhole), put hands up because on the other side you'll be doing a handstand
+			wormhole forms when a neighborhood likes a neighborhood in another nation
 	links between lists
 
 when decision maker decides against your idea, player is given a narrative for why
