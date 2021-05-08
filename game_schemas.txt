@@ -103,8 +103,13 @@ you interact with npc A, a member of race A
 hierarchy
 1A = 10B = 100C = 1000D
 2A = 20B = 200C = 2000D
-         \ 21B = 3000D
-
+         \ 19B = 3000D
+4A = 40B = 400C = 4000D
+you're given 2000D, you trade it for 20B
+	you trade 19B for 3000D, then trade 2000D for 20B
+		you kept 1B in savings
+		you traded 19B for 3000D, you now have 3000D + 1B = 3B
+		you kept 
 
 MISSION: you have to get this idea to the king
 	you find out about who has the king's ear
