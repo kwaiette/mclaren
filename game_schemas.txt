@@ -279,6 +279,13 @@ concept: owners
 	ballplayers are rich but team owners are filthy rich
 	
 
+breadcrumb approach
+	toss out a breadcrumb associated with current topic
+	every so often, check your trail
+		how did i get here?
+		could i get here again given this trail?
+
+
 
 
 
