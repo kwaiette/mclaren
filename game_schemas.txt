@@ -179,4 +179,18 @@ _|_ _|_
 
 
 
+request to server
+can I handle this request?
+	yes
+		handle it
+	no
+		can a previous version of myself handle it?
+			yes
+				have previous version handle it
+			no
+				can a previous version of myself handle it?
+					yes
+					no
+
+Wayne Jensen (jensenw@gmail.com)
 
