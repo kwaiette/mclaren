@@ -354,6 +354,20 @@ patterns to recognize
 	A.{N}A
 {some match} {arbitrary data} {a different match} {arbitrary data} {some match}
 	A.*B.*A
+{some match} {arbitrary data of arbitrary length} {some match}
+\w{word}\w
 
 set notation (a,b] inclusive/exclusive?
 
+PATTERN A = 11101
+streaming data   patterns           matching
+1                ABCD               A[0]
+0                ABCD
+1                ABCD               A[0]
+1                ABCD               A[0]A[1]
+1                ABCD               A[0]A[1]A[2]
+0                ABCD               A[3]
+1                ABCD               A[0]*A[4]*
+
+process stream for patterns
+every so often, fork to process stored patterns
