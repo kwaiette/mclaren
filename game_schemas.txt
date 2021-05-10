@@ -334,6 +334,7 @@ plethora of pink poop catchers
 patterns to recognize
 [1010101]
 	1001001001 - frequency
-		1010010100101 - frequency 
+		1010010100101 - frequency, crosses plane at different point
+		11001100110011 - amplitude?
 	[1010101] matches [1011101] but a weaker match than [1010101]
-
+	
