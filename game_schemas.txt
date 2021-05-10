@@ -425,8 +425,9 @@ S[future] is actually 'C'
 		mathematical
 			difference between 'A' and 'C' is 2, next character should be 'E'
 			y = mx + b
-				C/A = 67/65 = 1.0308, y = 1.0308x
-				(C-1)/(A-1) = 66/64 = 1.0313, y = 1.0313x - 1
+				C/A = 67/65 = 1.0308, y = 1.0308x (predict next character is E because 1.0308(67) = 69.0636, .0636 error
+				(C-1)/(A-1) = 66/64 = 1.0313, y - 1 = 1.0313(x - 1) = 1.0313x - 1.0313 = y - 1
+					y = 1.0313x - 0.0313
 				
 		based on currently owned patterns
 			matches 010, next character should be 'A'
