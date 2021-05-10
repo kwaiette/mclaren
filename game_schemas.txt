@@ -442,3 +442,18 @@ narrative
 
 ceiq
 ABDHP(a-1)
+
+
+request comes in ->
+ask security
+	security rules, [NO unless master security says it's okay, YES unless master security says it's not okay]
+		where's master security?
+			get secret SECURITY
+				assumes protocol
+					request object
+						source
+						app
+						body
+					request reference
+						request ID (md5?)
+						find request on bus?
