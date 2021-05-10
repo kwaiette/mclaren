@@ -339,4 +339,19 @@ patterns to recognize
 	[1010101] matches [1011101] but a weaker match than [1010101]
 [[patternX]...101.*[patternX]]
 	matches 101 when it occurs three characters after a patternX match
+		see a new pattern
+			1..x..1
+		see similar data
+			1..x...1
+		hypothesize that the patterns are related
+			1 followed by two characters (any), then x, then followed by any number of characters, followed by a 1
+			1 followed by any number of characters followed by X followed by any number of characters
+				constraint: any characters A and any characters B are related in length?
+					len(A) <= len(B)+1, len(A) >= len(B)
+					len(B) > len(A)
+					
+{some match} {arbitrary data of length N} {some match}
+{some match} {arbitrary data} {a different match} {arbitrary data} {some match}
+
+set notation (a,b] inclusive/exclusive?
 
