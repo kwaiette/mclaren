@@ -396,7 +396,8 @@ match graph
 		S[0] and S[1] match A[0] and A[1] exactly
 		distance between S[0] and S[1] matches A[0] to A[1] distance
 			+1, +55
-			*2
+			*2, *10
+			^2
 [[[peek ahead at stream
 
 process stream for patterns
@@ -407,3 +408,6 @@ assign meaning? value?
 	consistency of match?
 	ability of pattern to match a large percentage of stream?
 	prediction!
+		how far ahead it can predict
+
+pseudocode analyzer, creates schemas and assertions as you type
