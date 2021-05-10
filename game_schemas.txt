@@ -370,6 +370,19 @@ streaming data   patterns           matching
 0                ABCD               A[3]B[0]
 1                ABCD               A[0]*A[4]*
 
+list of patterns L
+if match L[A[0]]
+	push A[1,*] onto L
+else if L[A[0]] is a subpattern
+	pop A[0] from L
+
+A->5 repeats every five characters
+	A....A weak match
+	A....A....A stronger match
+	A...A.....A partial match?
+	A...A...A match but with lower frequency?
+
+
 process stream for patterns
 every so often, fork to process stored patterns
 
