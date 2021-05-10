@@ -390,6 +390,11 @@ match types
 		relative to previous/next character?
 			sequential, cyclical, exponential
 	frequency
+match graph
+	match character S[0] to pattern A[0]
+	if path from A[0] to A[1] matches S[0] to S[1]
+		//
+[[[peek ahead at stream
 
 process stream for patterns
 every so often, fork to process stored patterns
