@@ -432,3 +432,6 @@ C = 067 = 0x43 = 01000011
 narrative
 	A caused B
 	A and B were caused by C
+
+ceiq
+ABDHP(a-1)
