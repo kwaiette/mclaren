@@ -420,6 +420,12 @@ predict next character S[future] will be 'B'
 predict next character will be 'A'
 	no match
 no matches made
+S[future] is actually 'C'
 	hypothesize what the link between S[now] and S[future] is
 		mathematical
+			difference between A and C is 2, next character should be E
+			//
 		based on currently owned patterns
+narrative
+	A caused B
+	A and B were caused by C
