@@ -393,7 +393,10 @@ match types
 match graph
 	match character S[0] to pattern A[0]
 	if path from A[0] to A[1] matches S[0] to S[1]
-		//
+		S[0] and S[1] match A[0] and A[1] exactly
+		distance between S[0] and S[1] matches A[0] to A[1] distance
+			+1, +55
+			*2
 [[[peek ahead at stream
 
 process stream for patterns
@@ -403,3 +406,4 @@ assign meaning? value?
 	length of match?
 	consistency of match?
 	ability of pattern to match a large percentage of stream?
+	prediction!
