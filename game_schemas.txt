@@ -382,6 +382,14 @@ A->5 repeats every five characters
 	A...A.....A partial match?
 	A...A...A match but with lower frequency?
 
+hash table of values we've seen
+if we encounter a value we've seen before, it might be a pattern
+match types
+	absolute value
+	relative value
+		relative to previous/next character?
+			sequential, cyclical, exponential
+	frequency
 
 process stream for patterns
 every so often, fork to process stored patterns
