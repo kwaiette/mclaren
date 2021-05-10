@@ -351,7 +351,9 @@ patterns to recognize
 					len(B) > len(A)
 					
 {some match} {arbitrary data of length N} {some match}
+	A.{N}A
 {some match} {arbitrary data} {a different match} {arbitrary data} {some match}
+	A.*B.*A
 
 set notation (a,b] inclusive/exclusive?
 
