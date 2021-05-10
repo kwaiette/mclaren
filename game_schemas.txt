@@ -360,14 +360,20 @@ patterns to recognize
 set notation (a,b] inclusive/exclusive?
 
 PATTERN A = 11101
+PATTERN B = 000
 streaming data   patterns           matching
 1                ABCD               A[0]
-0                ABCD
+0                ABCD               B[0]
 1                ABCD               A[0]
 1                ABCD               A[0]A[1]
 1                ABCD               A[0]A[1]A[2]
-0                ABCD               A[3]
+0                ABCD               A[3]B[0]
 1                ABCD               A[0]*A[4]*
 
 process stream for patterns
 every so often, fork to process stored patterns
+
+assign meaning? value?
+	length of match?
+	consistency of match?
+	ability of pattern to match a large percentage of stream?
