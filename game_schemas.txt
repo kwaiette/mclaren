@@ -411,3 +411,15 @@ assign meaning? value?
 		how far ahead it can predict
 
 pseudocode analyzer, creates schemas and assertions as you type
+
+
+read a character from stream
+S[now] 'A'
+predict next character S[future] will be 'B'
+	no match
+predict next character will be 'A'
+	no match
+no matches made
+	hypothesize what the link between S[now] and S[future] is
+		mathematical
+		based on currently owned patterns
