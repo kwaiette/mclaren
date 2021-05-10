@@ -430,7 +430,7 @@ S[future] is actually 'C'
 					y = 1.0313x - 0.0313
 				(C-2)/(A-2) = 65/63 = 1.0317, y - 2 = 1.0317(x - 2) = 1.0317x - 2.0634 = y - 2
 					y = 1.0317x - 0.0634
-				(C-A)/(A-A)
+				y = (C-$X)/(A-$X)x + [(C-$X)/(A-$X) - $X] 
 				
 		based on currently owned patterns
 			matches 010, next character should be 'A'
