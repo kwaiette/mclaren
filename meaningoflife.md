@@ -19,6 +19,14 @@ Mainly right now I'm channeling Douglas Adams
 Part of the reason I'm writing about the voice in my head is scaffolding
 But we'll get to that later
 
-Schemas
+So why don't I just run out and tell the world?
+Well:
+	(a) I'm not absolutely _positive_ it will change the world
+	(b) I believe that if it is going to change the world, it has to have a narrative to go with it
+	(c) I'm afraid that if it doesn't have the accompanying narrative, it will fizzle and die with me if I run around telling everyone
+
+Maybe a table of contents should go here
+
+##Schemas
 
 
