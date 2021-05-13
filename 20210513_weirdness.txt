@@ -24,6 +24,16 @@ adhd as software code
 	adhd = spaghetti code, goto loops and jumps
 	neurotypical = object oriented, organized
 	hypothesis: adhd trainable to do object-oriented thinking?
+
+analyze depth of code with flow
+    entrypoint                       --------------------------------------------------------------------------------------------
+        class                             ----------------------------------------------------------------------------------
+            method                             ------------------------------------------------------
+                loop                                   -------    ---          -----
+                                                        -----      -            ---
+                                                         ---                     -
+                                                          -
+fdsa
 	
 
 terminology: code complete
