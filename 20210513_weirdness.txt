@@ -51,4 +51,17 @@ NODE3 hands off information about the request to NODE0
 NODE0 responds that the request should be denied because NODE2 is not behaving in a manner consistent with our model of NODE2
 	unless: NODE2 reports that it's acting on behalf of NODE1	
 		and: this behavior is consistent with our model of how NODE1 would behave when acting through NODE2
+----------------
+counter security
+another AI surveils the network, learning patterns of behavior of entities
+hypothesizes how NODE1 would behave if acting through NODE2
+	NODE1 sends a request to NODE2, encrypted with NODE1's public key it uses only for NODE2
+		inside the data of the request is a piece that's encrypted with NODE1's public key it uses only for NODE3
+			NODE3 decrypts the data
+			checks its contents against NODE0's model of NODE1
+			adds this transaction to the hash associated with NODE1
+			sends packet back to NODE1 encrypted with its key that's only for NODE1, contents being the new hash that NODE3 associates with NODE1
+			this is what NODE1 will send NODE3-encrypted to the request to NODE2 next time
+				NODE3 keeps list of a few recent hash signatures, will accept requests signed with any of these
+					suspicion of deviation from behavioral model increases with the age of the hash signature
 
