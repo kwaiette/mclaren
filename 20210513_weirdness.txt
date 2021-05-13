@@ -37,3 +37,18 @@ fdsa
 	
 
 terminology: code complete
+
+
+network AI = NODE0
+have model of the way NODE1 behaves
+have model of the way NODE2 behaves
+have model of the way NODE3 behaves
+NODE2 makes request to NODE3
+NODE3 hands off information about the request to NODE0
+NODE3 handles request, returns data to NODE2
+NODE2 makes another request to NODE3
+NODE3 hands off information about the request to NODE0
+NODE0 responds that the request should be denied because NODE2 is not behaving in a manner consistent with our model of NODE2
+	unless: NODE2 reports that it's acting on behalf of NODE1	
+		and: this behavior is consistent with our model of how NODE1 would behave when acting through NODE2
+
