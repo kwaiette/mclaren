@@ -64,4 +64,37 @@ hypothesizes how NODE1 would behave if acting through NODE2
 			this is what NODE1 will send NODE3-encrypted to the request to NODE2 next time
 				NODE3 keeps list of a few recent hash signatures, will accept requests signed with any of these
 					suspicion of deviation from behavioral model increases with the age of the hash signature
+behavior categorized by 
 
+pattern matcher
+sees a pattern
+	spawns prediction maker to compare the future to prediction
+		prediction maker hypothesises why observed doesn't match prediction, determines significance accordingly
+	spawns an updated pattern matcher to start at time0 analyzing everything all over again
+
+A single value can't be a pattern
+two values can be a pattern
+	repetition if ==
+		y = 3
+			test: can predict next character?
+	slope if !=
+		y = x
+three values
+	--- repetition
+	/\ sin
+		\/ cos
+	// or \\ slope
+	not sin
+		/\/\ oscilation
+			test: can predict next two characters?
+				we saw up-down change, [4, 6, 2], [+2, -4], we predict next two characters will be [4, 0], then [2, -2], then [0, -4]...
+
+
+I have this pattern model A
+I'm starting at time0
+I'm looking for confirmation of and/or elaboration on A
+I'm also looking for pattern
+
+    /-\
+---/---\---/
+        \-/
