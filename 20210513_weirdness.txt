@@ -89,6 +89,15 @@ three values
 			test: can predict next two characters?
 				we saw up-down change, [4, 6, 2], [+2, -4], we predict next two characters will be [4, 0], then [2, -2], then [0, -4]...
 
+patternMatcher(depth, stream, knownPatterns) {
+	myDepth = depth+1;
+	knownPatterns.each(x) {
+		patternMatcher(myDepth, 
+	}
+
+transform graphml into html
+translator can recognize json data in node
+	add an on-click listener 
 
 I have this pattern model A
 I'm starting at time0
