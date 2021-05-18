@@ -105,7 +105,8 @@ lookForOtherNodesWithSimilarTraits(subject) {
         //AI observes what parts of the data come out the other end unchanged so it knows what can be substituted
             //more complex: it hypothesises how the data will be transformed, sends tracer in and recognizes the transformed output
     //node shuts off all communication to and from black box code, sends fake tracer packet in and observes attempted output, then returns to normal and sends in the real packet
-        //
+        //instead of shutting stuff off, start up new dummy version of black box in vm/container/etc
+    
 
 //analyzing git
 // here is the history of the file; what is your narrative?
