@@ -72,10 +72,8 @@ lookForOtherNodesWithSimilarTraits(subject) {
         // X is not a common character but it's in both of these nodes
         // significant meaning these two things share a similarity that isn't shared with other things
         //    isn't shared with half? does frequency correlate with what proportion of the population not having it makes it significant?
-        //      X is only in 1/3 of the nodes; this node has one X in it, not very significant; that node has four Xs, that's significant
+        //      X is only in 1/3 of the nodes; this node has one X in it, not very significant; that node has four Xs, that's significant; Y is only in 1 node and it's in the new node once, that's significant;
 }
-//moroni - case study - subject?
-// subject:dynatrace in fargate
 
 //we have something that is:node and it contains:text; we're going to assign name A to is:node&contains:text
 //we found a bunch of A
