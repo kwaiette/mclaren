@@ -21,7 +21,9 @@
                     //different words that mean the same - moderately hard
                     //phrases that have similar meanings - very hard
         //similar local structure
-        //
+            //a node with X children
+            //a tree with X depth
+            //a graph that consists of multiple trees
 
 
 //loremipsum-ing
@@ -32,3 +34,15 @@
 //  approximateCheck()
 //I know that I will want to check meaning in the future but that code isn't implemented yet
 //  loremipsum meaningCheck()
+
+
+//graph-analysis pseudocode
+foreach(readAllFiles() as file) {
+    if isFileAGraph()
+        //do stuff
+}
+
+//procedure
+    //readfile
+        //while reading, begin analyzing based on hypothesized format
+        //if doesn't look like hypothesized format, kill analyzing thread, form new hypothesis, start new thread at beginning of buffer
