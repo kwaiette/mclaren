@@ -80,8 +80,13 @@ lookForOtherNodesWithSimilarTraits(subject) {
         //has text
             //has words
                 //has letters
-                
+        //has structure
 
+// (file) -*-> (node) -*-> (word) -*-> (letter)
+// letter A only exists in the database once
+// "letter"  -> (L) -> (E) -> (T) +
+//               (R) <-/  \---/  \/
+// has:traversal LETR
 
 //analyzing git
 // here is the history of the file; what is your narrative?
