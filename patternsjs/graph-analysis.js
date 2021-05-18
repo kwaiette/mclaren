@@ -125,3 +125,11 @@ lookForOtherNodesWithSimilarTraits(subject) {
 
 //callback function
     //translate to api call
+
+//read byte B1
+//store B1 as node in graph
+//read byte B2
+//store B2 as node in graph
+//create B1-B2 edge (type:sequential) in graph
+//read byte B3
+//store B3 as node in graph
