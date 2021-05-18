@@ -97,7 +97,12 @@ lookForOtherNodesWithSimilarTraits(subject) {
     //http as header, e.g.
 //anyone receiving that tracer writes where the packet is coming from and where it's going to
     //to a log
-//simplest: request w/ tracer comes into node, node writes tracer info to
+//simplest:
+    //request w/ tracer comes into node, node writes source node / current node info to log, doesn't know anything about destinations
+//possible:
+    //node sends tracer into its transformer, observes where that tracer gets sent in outputs
+    //node can't send tracer into transformer, it has no ability to handle meta data, but node can replace something in the data it sends with the tracer, then intercept that data on its way out and replace original data
+        //AI observes what parts of the data 
 
 //analyzing git
 // here is the history of the file; what is your narrative?
