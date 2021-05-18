@@ -65,9 +65,23 @@ lookForRelatedNodes() {
     lookForOtherNodesWithSimilarTraits(thisNode)
 }
 
-lookForOtherNodesWithSimilarTraits() {
-
+lookForOtherNodesWithSimilarTraits(subject) {
+    //do we have any nodes with words in common?
+    //do we have any subgraphs with similar structure?
+    //
 }
+
+//we have something that is:node and it contains:text; we're going to assign name A to is:node&contains:text
+//we found a bunch of A
+    //do we see any other similarities?
+
+//file
+    //has nodes
+        //has text
+            //has words
+                //has letters
+                
+
 
 //analyzing git
 // here is the history of the file; what is your narrative?
