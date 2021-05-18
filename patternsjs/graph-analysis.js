@@ -20,6 +20,12 @@
                 //meaning - hard
                     //different words that mean the same - moderately hard
                     //phrases that have similar meanings - very hard
+                        //machine learning to figure out meaning while processing
+                            //this looks like X, I'm going to start processing as if X, but I'll stop if anyone tells me that future data says this isn't X
+                                //alternate universe graph
+                                //graph merge
+                            //probability of X matching
+                                //increases as confirming data increases
         //similar local structure
             //a node with X children
             //a tree with X depth
