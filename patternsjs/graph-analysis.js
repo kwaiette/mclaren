@@ -93,6 +93,12 @@ lookForOtherNodesWithSimilarTraits(subject) {
 // has:traversal LETR; LE ET TT TE ER
 // hypothesis: words can be human readable in context 
 
+//add a tracer to a request
+    //http as header, e.g.
+//anyone receiving that tracer writes where the packet is coming from and where it's going to
+    //to a log
+//simplest: request w/ tracer comes into node, node writes tracer info to
+
 //analyzing git
 // here is the history of the file; what is your narrative?
 //  narrative can cover multiple commits, can include other narratives
@@ -148,4 +154,3 @@ lookForOtherNodesWithSimilarTraits(subject) {
     //re-process data
     //perform tasks
     //react
-    
