@@ -10,5 +10,25 @@
 //what do we want to know from the graph analysis?
     //which unconnected nodes are related?
         //similar text
+            //words
+                //identical - easy
+                //approximate - intermediate
+                    //typos
+                    //mis-spellings
+                    //prefix or suffix addition
+                    //conjugation
+                //meaning - hard
+                    //different words that mean the same - moderately hard
+                    //phrases that have similar meanings - very hard
         //similar local structure
         //
+
+
+//loremipsum-ing
+//I'm comparing two nodes
+//I want to check for identical word matches
+//  identicalCheck()
+//I want to check for approximate matches
+//  approximateCheck()
+//I know that I will want to check meaning in the future but that code isn't implemented yet
+//  loremipsum meaningCheck()
