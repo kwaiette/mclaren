@@ -102,7 +102,10 @@ lookForOtherNodesWithSimilarTraits(subject) {
 //possible:
     //node sends tracer into its transformer, observes where that tracer gets sent in outputs
     //node can't send tracer into transformer, it has no ability to handle meta data, but node can replace something in the data it sends with the tracer, then intercept that data on its way out and replace original data
-        //AI observes what parts of the data 
+        //AI observes what parts of the data come out the other end unchanged so it knows what can be substituted
+            //more complex: it hypothesises how the data will be transformed, sends tracer in and recognizes the transformed output
+    //node shuts off all communication to and from black box code, sends fake tracer packet in and observes attempted output, then returns to normal and sends in the real packet
+        //
 
 //analyzing git
 // here is the history of the file; what is your narrative?
