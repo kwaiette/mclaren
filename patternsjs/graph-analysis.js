@@ -56,13 +56,38 @@ addFileToGraph(file) {
         createSequentialEdge(currNode, prevNode)
 }
 
+onCreateNode() {
+    lookForRelatedNodes()
+}
+
+lookForRelatedNodes() {
+    //
+}
+
+//analyzing git
+// here is the history of the file; what is your narrative?
+//  narrative can cover multiple commits, can include other narratives
+
+//process for parsing a file
+//  describe structure of file, assign meaning to each element
+//process for translating a file to a different format
+//  describe 
+
+//description of text file graph
+//file is node
+//file contains nodes
+//a node is a block of text, followed by a blank line, or end of file
+    //block of text = one or more words
+        //word = one or more letters; has meaning
+            //words may include symbols, either accidentally or on purpose
+
 //design principle
     //if I'm interacting with a UI, nothing should change the way I NORMALLY interact with it without an action on my part
         //code completion
             //[enter] to accept completion == BAD; [enter] is a normal interaction with the editor
             //[down] to scroll through completions == BAD; [down] is a normal interaction
     //UI should always be predictable; I know that every time I do X, Y will happen
-    
+
 
 //procedure
     //readfile
