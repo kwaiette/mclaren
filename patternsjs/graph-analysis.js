@@ -140,3 +140,12 @@ lookForOtherNodesWithSimilarTraits(subject) {
     //max time
     //max processing percentage
     //
+
+//AI android tasks
+    //take in data
+    //process data
+        //look for patterns
+    //re-process data
+    //perform tasks
+    //react
+    
