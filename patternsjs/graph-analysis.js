@@ -45,8 +45,24 @@
 //graph-analysis pseudocode
 foreach(readAllFiles() as file) {
     if isFileAGraph()
-        //do stuff
+        addFileToGraph(file)
 }
+
+addFileToGraph(file) {
+    createNode(file.name)
+    prevNode = null
+    foreach file.nodeblock
+        createNode(file.nodeblock.name)
+        createSequentialEdge(currNode, prevNode)
+}
+
+//design principle
+    //if I'm interacting with a UI, nothing should change the way I NORMALLY interact with it without an action on my part
+        //code completion
+            //[enter] to accept completion == BAD; [enter] is a normal interaction with the editor
+            //[down] to scroll through completions == BAD; [down] is a normal interaction
+    //UI should always be predictable; I know that every time I do X, Y will happen
+    
 
 //procedure
     //readfile
