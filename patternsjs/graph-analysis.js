@@ -90,7 +90,7 @@ lookForOtherNodesWithSimilarTraits(subject) {
 // letter A only exists in the database once
 // "letter"  -> (L) -> (E) -> (T) +
 //               (R) <-/  \---/  \/
-// has:traversal LETR
+// has:traversal LETR; LE ET TT TE ER
 // hypothesis: words can be human readable in context 
 
 //analyzing git
