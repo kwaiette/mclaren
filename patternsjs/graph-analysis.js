@@ -68,8 +68,13 @@ lookForRelatedNodes() {
 lookForOtherNodesWithSimilarTraits(subject) {
     //do we have any nodes with words in common?
     //do we have any subgraphs with similar structure?
-    //
+    //do we have any significant character similarities?
+        // X is not a common character but it's in both of these nodes
+        // significant meaning these two things share a similarity that isn't shared with other things
+        //    isn't shared with half? does frequency correlate with what proportion of the population not having it makes it significant?
+        //      X is only in 1/3 of the nodes; 
 }
+//moroni - case study - subject?
 
 //we have something that is:node and it contains:text; we're going to assign name A to is:node&contains:text
 //we found a bunch of A
@@ -87,6 +92,7 @@ lookForOtherNodesWithSimilarTraits(subject) {
 // "letter"  -> (L) -> (E) -> (T) +
 //               (R) <-/  \---/  \/
 // has:traversal LETR
+// hypothesis: words can be human readable in context 
 
 //analyzing git
 // here is the history of the file; what is your narrative?
