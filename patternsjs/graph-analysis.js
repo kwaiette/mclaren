@@ -133,3 +133,10 @@ lookForOtherNodesWithSimilarTraits(subject) {
 //create B1-B2 edge (type:sequential) in graph
 //read byte B3
 //store B3 as node in graph
+//create B2-B3 as edge in graph (type:sequential)
+
+//squirrel tangent limit
+    //max depth
+    //max time
+    //max processing percentage
+    //
