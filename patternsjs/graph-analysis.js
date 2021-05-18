@@ -61,7 +61,12 @@ onCreateNode() {
 }
 
 lookForRelatedNodes() {
-    //
+    thisNode = analyzeThisNode()
+    lookForOtherNodesWithSimilarTraits(thisNode)
+}
+
+lookForOtherNodesWithSimilarTraits() {
+
 }
 
 //analyzing git
