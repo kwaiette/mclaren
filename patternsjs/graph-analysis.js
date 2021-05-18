@@ -46,3 +46,6 @@ foreach(readAllFiles() as file) {
     //readfile
         //while reading, begin analyzing based on hypothesized format
         //if doesn't look like hypothesized format, kill analyzing thread, form new hypothesis, start new thread at beginning of buffer
+
+//callback function
+    //translate to api call
