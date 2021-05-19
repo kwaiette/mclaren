@@ -1,12 +1,14 @@
 var Graph = require('data-structures').Graph;
 
 Graph.prototype.getConnectedNodes = function (nodeId) {
+    console.log("getConnectedNodes",nodeId);
     thisNode = this._nodes[nodeId];
-    for (let destinationNodeId of Object.keys(this._outEdges)) {
+    for (let destinationNodeId of Object.keys(thisNode._outEdges)) {
         console.log(destinationNodeId);
     }
     //foreach Object.keys(this._inEdges)
 }
+
 var graph = new Graph();
 
 /*
@@ -93,7 +95,7 @@ function showStuffFormattedText(interactingEntity, graph) {
         console.log(this);
         let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
         console.log('foreachnode',e,nodeId,nodeObj);
-        console.log('getConnected',nodeId,graph.getConnectedNodes());
+        console.log('getConnected',nodeId,graph.getConnectedNodes(nodeId));
     });
 
     interactingEntity.show(formattedText);
