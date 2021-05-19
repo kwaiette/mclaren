@@ -55,9 +55,14 @@ function showStuff(interactingEntity, graph) {
 function showStuffFormattedText(interactingEntity, graph) {
     //prepare ascii
     let formattedText = '';
-    graph.forEachNode(function (nodeObj) {
+    //graph.forEachNode(function (nodeObj) {
         //
-    });
+    //});
+    //get some node
+    let startNode = graph.getNode('A');
+    //is startNode a Node()?
+    //traverse graph
+    graph.getAllEdgesOf(startNode);
 
     interactingEntity.show(formattedText);
 }
