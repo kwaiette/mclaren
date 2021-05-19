@@ -3,10 +3,14 @@ var Graph = require('data-structures').Graph;
 Graph.prototype.getConnectedNodes = function (nodeId) {
     console.log("getConnectedNodes",nodeId);
     thisNode = this._nodes[nodeId];
+    var connecteds = [];
     for (let destinationNodeId of Object.keys(thisNode._outEdges)) {
-        console.log(destinationNodeId);
+        connecteds.push(destinationNodeId);
     }
-    //foreach Object.keys(this._inEdges)
+    for (let destinationNodeId of Object.keys(thisNode._inEdges)) {
+        connecteds.push(destinationNodeId);
+    }
+    return connecteds;
 }
 
 var graph = new Graph();
@@ -97,7 +101,7 @@ function showStuffFormattedText(interactingEntity, graph) {
     let startNode = graph.getNode(startNodeId);
     //is startNode a Node()?
     //traverse graph
-    console.log('all edges', graph.getAllEdgesOf(startNodeId));
+    //console.log('all edges', graph.getAllEdgesOf(startNodeId));
 
     var visitedNodes = [];
     graph.forEachNode((nodeObj, nodeId) => {
