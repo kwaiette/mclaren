@@ -83,7 +83,7 @@ function showStuffFormattedText(interactingEntity, graph) {
 
     graph.forEachNode((nodeObj, nodeId) => {
         console.log(this);
-        let e = this.getAllEdgesOf();
+        let e = graph.getAllEdgesOf(); //xxx should be this or parent or something
         console.log('foreachnode',e);
     });
 
