@@ -1,7 +1,6 @@
 var Graph = require('data-structures').Graph;
 
 Graph.prototype.getConnectedNodes = function (nodeId) {
-    console.log("getConnectedNodes",nodeId);
     thisNode = this._nodes[nodeId];
     var connecteds = [];
     for (let destinationNodeId of Object.keys(thisNode._outEdges)) {
@@ -112,6 +111,7 @@ function showStuffFormattedText(interactingEntity, graph) {
             for (let i = 0; i < connecteds.length; i++) {
                 console.log('|   ', connecteds[i]);
             }
+            console.log('|');
         }
         visitedNodes[nodeId] = nodeObj;
     });
