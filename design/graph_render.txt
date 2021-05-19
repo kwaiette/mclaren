@@ -36,3 +36,25 @@ see request R coming in
 
 I need X service
 	publish/subscribe
+
+show prompt in English, receive response in language L
+not expecting response
+hypothesize
+	a word in English I don't recognize
+	a word in another language
+
+here's this request, I'm going to check all of the services I can see
+each
+	here's this request R, should I send response S?
+		yes, no, maybe
+	//
+
+algorithm for fulfilling requests for old versions
+	we are running v1.5
+	we got request for v1.1 someMethod()
+	we determine that someMethod() doesn't use any code that was modified between v1.1 and v1.5, we can fulfill request
+	OR
+	code was changed in a function called by someMethod(), but not someMethod() itself
+		spin up container with old version of someMethod()->otherCall()
+		route someMethod()->otherCall to old version
+		process
