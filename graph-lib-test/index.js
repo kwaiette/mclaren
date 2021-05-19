@@ -43,7 +43,15 @@ interactingEntity.setPref('display','console');
 
 graph.addNode('A');
 graph.addNode('B');
+graph.addNode('C');
+graph.addNode('D');
+graph.addNode('E');
+graph.addNode('F');
+graph.addNode('G');
 graph.addEdge('A','B');
+graph.addEdge('A','C');
+graph.addEdge('C','D');
+graph.addEdge('D','F');
 
 //get some arbitrary node from the graph
 //graph.forEachNode(function(nodeObj) {
@@ -94,10 +102,14 @@ function showStuffFormattedText(interactingEntity, graph) {
     var visitedNodes = [];
     graph.forEachNode((nodeObj, nodeId) => {
         console.log(this);
-        if (visitedNode)
-        let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
-        console.log('foreachnode',e,nodeId,nodeObj);
-        console.log('getConnected',nodeId,graph.getConnectedNodes(nodeId));
+        if (!visitedNodes[nodeId]) {
+            let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
+            console.log('foreachnode',e,nodeId,nodeObj);
+            console.log('getConnected',nodeId,graph.getConnectedNodes(nodeId));
+            for (let i = 0; i < x; i++) {
+                //
+            }
+        }
         visitedNodes[nodeId] = nodeObj;
     });
 
