@@ -81,7 +81,7 @@ function showStuffFormattedText(interactingEntity, graph) {
     //traverse graph
     console.log('all edges', graph.getAllEdgesOf(startNodeId));
 
-    graph.forEachNode(function (nodeObj, nodeId) {
+    graph.forEachNode((nodeObj, nodeId) => {
         console.log(this);
         let e = this.getAllEdgesOf();
         console.log('foreachnode',e);
