@@ -12,4 +12,8 @@ var Person = function() {
 }
 
 var interactingEntity = new Person();
-interactingEntity[]
+interactingEntity.setPref('display','console');
+
+graph.addNode('A');
+graph.addNode('B');
+graph.addEdge('A','B');
