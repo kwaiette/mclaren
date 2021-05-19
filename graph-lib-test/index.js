@@ -1,6 +1,10 @@
 var Graph = require('data-structures').Graph;
 
-Graph.prototype
+Graph.prototype.getConnectedNodes = function (nodeId) {
+    thisNode = this._nodes[nodeId];
+    foreach _outEdges
+    foreach _inEdges
+}
 var graph = new Graph();
 
 /*
