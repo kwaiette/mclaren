@@ -38,4 +38,18 @@ graph.forEachNode(function(nodeObj) {
 })
 
 //show to interactingEntity
-show()
+showStuff(interactingEntity, graph);
+
+
+
+showStuff(interactingEntity, graph) {
+    if (interactingEntity.isPerson) {
+        if (interactingEntity.getPref('display') == 'console') {
+            //prepare ascii
+            let formattedText = ''
+            interactingEntity.show(formattedText)
+        } else {
+            //prepare html??
+        }
+    }
+}
