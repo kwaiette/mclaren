@@ -11,7 +11,19 @@ var Person = function() {
     }
 }
 (function() {
-    var Person;
+    var Person,
+        __hasProp = {}.hasOwnProperty;
+    Person = (function() {
+        function Person() {
+            this.preferences = [];
+        }
+    });
+    Person.prototype.setPref = function(key, value) {
+        return (this.preferences[key] = value);
+    };
+    Person.prototype.getPref = function (params) {
+        //
+    }
 })
 
 var interactingEntity = new Person();
