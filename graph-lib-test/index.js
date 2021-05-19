@@ -1,6 +1,7 @@
 var Graph = require('data-structures').Graph;
 var graph = new Graph();
 
+/*
 var Person = function() {
     var preferences = [];
     var setPref = function(key, value) {
@@ -10,23 +11,19 @@ var Person = function() {
         return preferences[key];
     }
 }
-(function() {
-    var Person,
-        __hasProp = {}.hasOwnProperty;
-    Person = (function() {
-        function Person() {
-            this.preferences = [];
-        }
-        Person.prototype.setPref = function(key, value) {
-            return (this.preferences[key] = value);
-        };
-        Person.prototype.getPref = function(key) {
-            return (this.preferences[key]);
-        };
-        
-        return Person;
-    });
-})
+*/
+
+class Person {
+    constructor() {
+        this.preferences = [];
+    }
+    setPref(key, value) {
+        return (this.preferences[key] = value);
+    }
+    getPref(key) {
+        return (this.preferences[key]);
+    }
+}
 
 var interactingEntity = new Person();
 interactingEntity.setPref('display','console');
@@ -39,3 +36,6 @@ graph.addEdge('A','B');
 graph.forEachNode(function(nodeObj) {
     console.log(nodeObj);
 })
+
+//show to interactingEntity
+show()
