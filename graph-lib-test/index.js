@@ -48,7 +48,7 @@ function showStuff(interactingEntity, graph) {
             showStuffFormattedText(interactingEntity, graph);
         } else {
             //prepare html??
-            throw(new Exception('not yet implemented'));
+            throw(new Exception('not yet implemented: display to human other than console'));
         }
     } else {
         throw(new Exception('not yet implemented: interaction other than human'));
@@ -62,10 +62,11 @@ function showStuffFormattedText(interactingEntity, graph) {
         //
     //});
     //get some node
-    let startNode = graph.getNode('A');
+    let startNodeId = 'A';
+    let startNode = graph.getNode(startNodeId);
     //is startNode a Node()?
     //traverse graph
-    console.log('all edges', graph.getAllEdgesOf(startNode));
+    console.log('all edges', graph.getAllEdgesOf(startNodeId));
 
     interactingEntity.show(formattedText);
 }
