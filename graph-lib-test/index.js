@@ -105,8 +105,9 @@ function showStuffFormattedText(interactingEntity, graph) {
         if (!visitedNodes[nodeId]) {
             let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
             console.log('foreachnode',e,nodeId,nodeObj);
-            console.log('getConnected',nodeId,graph.getConnectedNodes(nodeId));
-            for (let i = 0; i < x; i++) {
+            connecteds = graph.getConnectedNodes(nodeId);
+            console.log('|',nodeId);
+            for (let i = 0; i < ; i++) {
                 //
             }
         }
