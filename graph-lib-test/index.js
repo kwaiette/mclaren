@@ -91,11 +91,14 @@ function showStuffFormattedText(interactingEntity, graph) {
     //traverse graph
     console.log('all edges', graph.getAllEdgesOf(startNodeId));
 
+    var visitedNodes = [];
     graph.forEachNode((nodeObj, nodeId) => {
         console.log(this);
+        if (visitedNode)
         let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
         console.log('foreachnode',e,nodeId,nodeObj);
         console.log('getConnected',nodeId,graph.getConnectedNodes(nodeId));
+        visitedNodes[nodeId] = nodeObj;
     });
 
     interactingEntity.show(formattedText);
