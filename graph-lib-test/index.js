@@ -23,6 +23,9 @@ class Person {
     getPref(key) {
         return (this.preferences[key]);
     }
+    show(stuffToShow) {
+        console.log(stuffToShow);
+    }
 }
 
 var interactingEntity = new Person();
