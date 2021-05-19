@@ -42,14 +42,22 @@ showStuff(interactingEntity, graph);
 
 
 
-showStuff(interactingEntity, graph) {
+function showStuff(interactingEntity, graph) {
     if (interactingEntity.isPerson) {
         if (interactingEntity.getPref('display') == 'console') {
-            //prepare ascii
-            let formattedText = ''
-            interactingEntity.show(formattedText)
+            showStuffFormattedText(interactingEntity, graph);
         } else {
             //prepare html??
         }
     }
+}
+
+function showStuffFormattedText(interactingEntity, graph) {
+    //prepare ascii
+    let formattedText = '';
+    graph.forEachNode(function (nodeObj) {
+        //
+    });
+
+    interactingEntity.show(formattedText);
 }
