@@ -17,3 +17,6 @@ interactingEntity.setPref('display','console');
 graph.addNode('A');
 graph.addNode('B');
 graph.addEdge('A','B');
+
+//get some arbitrary node from the graph
+forEachNode
