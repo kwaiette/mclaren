@@ -33,3 +33,6 @@ expect
 see request R coming in
 	see R, expect S on entity M
 	see R, probe for A on entity N
+
+I need X service
+	publish/subscribe
