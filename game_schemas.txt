@@ -457,3 +457,10 @@ ask security
 					request reference
 						request ID (md5?)
 						find request on bus?
+
+
+patterns
+A.A                    A.AA.AA.AA.A
+A.                     A.A.A.A.A.A.A
+AB                     ABABABABABABA
+
