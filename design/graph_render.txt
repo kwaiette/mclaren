@@ -7,6 +7,7 @@ queries are stored in graph format
 
 unitize DAS
   function code shouldn't trust parameters coming in
+	describe what's expected
 
 
 error handling being reported to AI
@@ -25,3 +26,10 @@ startNode, outputString += "(("+fitAndCenter(startNode.label)+"))"
 //
 renderGraph2D(person.preferredDisplayAlgorithm)
 // graph -> 2D representation -> [text|html|svg]
+
+
+
+expect
+see request R coming in
+	see R, expect S on entity M
+	see R, probe for A on entity N
