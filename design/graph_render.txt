@@ -24,3 +24,4 @@ startNode, outputString += "(("+fitAndCenter(startNode.label)+"))"
 //
 //
 renderGraph2D(person.preferredDisplayAlgorithm)
+// graph -> 2D representation -> [text|html|svg]
