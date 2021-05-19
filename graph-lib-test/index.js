@@ -33,9 +33,9 @@ graph.addNode('B');
 graph.addEdge('A','B');
 
 //get some arbitrary node from the graph
-graph.forEachNode(function(nodeObj) {
-    console.log(nodeObj);
-})
+//graph.forEachNode(function(nodeObj) {
+//    console.log(nodeObj);
+//})
 
 //show to interactingEntity
 showStuff(interactingEntity, graph);
@@ -43,12 +43,15 @@ showStuff(interactingEntity, graph);
 
 
 function showStuff(interactingEntity, graph) {
-    if (interactingEntity.isPerson) {
+    if (interactingEntity instanceof Person) {
         if (interactingEntity.getPref('display') == 'console') {
             showStuffFormattedText(interactingEntity, graph);
         } else {
             //prepare html??
+            throw(new Exception('not yet implemented'));
         }
+    } else {
+        throw(new Exception('not yet implemented: interaction other than human'));
     }
 }
 
@@ -62,7 +65,7 @@ function showStuffFormattedText(interactingEntity, graph) {
     let startNode = graph.getNode('A');
     //is startNode a Node()?
     //traverse graph
-    graph.getAllEdgesOf(startNode);
+    console.log('all edges', graph.getAllEdgesOf(startNode));
 
     interactingEntity.show(formattedText);
 }
