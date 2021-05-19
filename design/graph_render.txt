@@ -1,0 +1,26 @@
+dictionaryapi.com
+
+dictionary schema
+query schema before querying api
+queries are stored in graph format
+
+
+unitize DAS
+  function code shouldn't trust parameters coming in
+
+
+error handling being reported to AI
+	exception
+	stack trace
+
+
+renderGraphAsTxt
+	detect environment script is running in
+	set environment in Person schema, with preferred display algorithm
+	showGraphToUser -> [browser] display in browser view as html5 elements
+	                 \-> [console] display in fixed-width ascii
+outputString = '';
+startNode, outputString += "(("+fitAndCenter(startNode.label)+"))"
+//
+//
+renderGraph2D(person.preferredDisplayAlgorithm)
