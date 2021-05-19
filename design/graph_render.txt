@@ -60,3 +60,7 @@ algorithm for fulfilling requests for old versions
 		process
 	likelihood of future requests: kill container or don't
 
+
+start writing script
+get a piece of it done, see some output
+	what can AI learn from this progression? can unit tests be generated from this?
