@@ -10,6 +10,9 @@ var Person = function() {
         return preferences[key];
     }
 }
+(function() {
+    var Person;
+})
 
 var interactingEntity = new Person();
 interactingEntity.setPref('display','console');
@@ -19,4 +22,6 @@ graph.addNode('B');
 graph.addEdge('A','B');
 
 //get some arbitrary node from the graph
-forEachNode
+graph.forEachNode(function(nodeObj) {
+    console.log(nodeObj);
+})
