@@ -78,3 +78,9 @@ function showStuffFormattedText(interactingEntity, graph) {
 
     interactingEntity.show(formattedText);
 }
+
+var i = 0;
+setInterval(() => {
+    console.log('iteration',i);
+    i++;
+}, 10000);
