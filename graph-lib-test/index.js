@@ -1,4 +1,6 @@
 var Graph = require('data-structures').Graph;
+
+Graph.prototype
 var graph = new Graph();
 
 /*
@@ -90,3 +92,5 @@ function showStuffFormattedText(interactingEntity, graph) {
     interactingEntity.show(formattedText);
 }
 
+//need: a way to get from node-edge to connected node
+//getConnectedNodes
