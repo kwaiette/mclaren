@@ -82,6 +82,7 @@ function showStuffFormattedText(interactingEntity, graph) {
     console.log('all edges', graph.getAllEdgesOf(startNodeId));
 
     graph.forEachNode(function (nodeObj, nodeId) {
+        console.log(this);
         let e = this.getAllEdgesOf();
         console.log('foreachnode',e);
     });
