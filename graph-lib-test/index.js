@@ -17,13 +17,15 @@ var Person = function() {
         function Person() {
             this.preferences = [];
         }
+        Person.prototype.setPref = function(key, value) {
+            return (this.preferences[key] = value);
+        };
+        Person.prototype.getPref = function(key) {
+            return (this.preferences[key]);
+        };
+        
+        return Person;
     });
-    Person.prototype.setPref = function(key, value) {
-        return (this.preferences[key] = value);
-    };
-    Person.prototype.getPref = function (params) {
-        //
-    }
 })
 
 var interactingEntity = new Person();
