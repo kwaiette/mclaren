@@ -41,9 +41,19 @@ graph.addEdge('A','B');
 //})
 
 //show to interactingEntity
-showStuff(interactingEntity, graph);
+try {
+    showStuff(interactingEntity, graph);
+} catch (e) {
+    console.log(e);
+}
 
+var i = 0;
+setInterval(() => {
+    console.log('iteration',i);
+    i++;
+}, 10000);
 
+console.log('interval');
 
 function showStuff(interactingEntity, graph) {
     if (interactingEntity instanceof Person) {
@@ -79,8 +89,3 @@ function showStuffFormattedText(interactingEntity, graph) {
     interactingEntity.show(formattedText);
 }
 
-var i = 0;
-setInterval(() => {
-    console.log('iteration',i);
-    i++;
-}, 10000);
