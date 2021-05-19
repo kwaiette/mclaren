@@ -101,14 +101,12 @@ function showStuffFormattedText(interactingEntity, graph) {
 
     var visitedNodes = [];
     graph.forEachNode((nodeObj, nodeId) => {
-        console.log(this);
         if (!visitedNodes[nodeId]) {
             let e = graph.getAllEdgesOf(nodeId); //xxx should be this or parent or something
-            console.log('foreachnode',e,nodeId,nodeObj);
             connecteds = graph.getConnectedNodes(nodeId);
             console.log('|',nodeId);
-            for (let i = 0; i < ; i++) {
-                //
+            for (let i = 0; i < connecteds.length; i++) {
+                console.log('|   ', connecteds[i]);
             }
         }
         visitedNodes[nodeId] = nodeObj;
