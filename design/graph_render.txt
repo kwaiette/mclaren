@@ -58,3 +58,5 @@ algorithm for fulfilling requests for old versions
 		spin up container with old version of someMethod()->otherCall()
 		route someMethod()->otherCall to old version
 		process
+	likelihood of future requests: kill container or don't
+
