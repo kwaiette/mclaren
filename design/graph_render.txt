@@ -73,3 +73,7 @@ perpendicular
 y = +x
 x = +y = ++x
 
+voice audio processing
+	using tangents to smooth curves
+
+how to cope in a 2d world
