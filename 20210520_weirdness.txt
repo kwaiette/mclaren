@@ -1,0 +1,68 @@
+text analysis
+	values the speaker has
+		book
+			author
+			publishing company
+			sponsor
+		website
+			author
+			sponsor
+			website owner
+			hosting service
+	logic based on those values
+
+
+
+relationship types
+	identity
+	metaphor
+	
+
+node type: edge
+	an edge can contain several nodes
+	an edge is a graph - an alternate universe
+	
+energy is a dimension, friction is a dimension
+	//
+
+idea as graph
+overall worldview
+testability
+falsifiability
+dependencies
+	overall worldview depends on X idea which depends on Y being true
+implications
+--interactive graph
+	someone marks Y as being false
+	this flags it for the author
+
+
+
+policies
+	container deployment
+	
+hypothesis
+	a person being onboarded to an organization will be functional more quickly if they have a model of the organization
+	someone who is already a member of the organization can also benefit from this model
+	an organization can be modeled as nouns and verbs
+		nouns: people, code, 
+		verbs: flows, how information flows through these nodes
+
+idea: immutable container - if something important changes, it won't run
+	must define volumes, incoming ports, outgoing ports, etc
+fulfills
+	security
+	documentation
+
+idea: yaml, json, etc diff/patch
+	
+
+graph
+a view
+a dimension
+slices
+universe
+	meta
+		this universe is described by
+		functions like
+		
