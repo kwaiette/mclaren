@@ -1,0 +1,43 @@
+piggy back
+
+universes
+store file
+	filename -> first letter of file -> etc
+	file contents can be retrieved by traversing graph
+		file1:abcd: a -> b -> c -> d 
+		file2:ace : | \------/ \--------e
+		
+
+
+ucl - universal configuration language
+
+json
+{
+	"ucl-parent": [".."] //default; multiple parents possible
+}
+
+yaml
+ucl-parent:
+	- ".."
+
+//use comments to show values gotten from parent?
+
+
+yaml anchor - multi-dimensional frequency
+
+
+ucl describes config files
+	describes value sync
+	
+
+need
+	identity service
+	permissions service
+	
+
+
+matching / learning
+	matches
+	exceptions
+	A -> B matches pattern X
+		but A -> B -> C means we shouldn't match this to pattern X
