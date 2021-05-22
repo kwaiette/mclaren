@@ -1,0 +1,25 @@
+<issue iid= ruleid= >
+	<folder>critical
+	<friority>critical
+
+	<category>
+
+
+{
+	"issues": [
+		{
+			effortMinutes: 0,
+			engineId: "fortify",
+			primaryLocation: {
+				filePath: <issue.primary.filepath>
+				message: <issue.kingdom>
+				textRange {
+					startLine: <issue.primary.linestart>
+				}
+			}
+			"ruleId": <issue ruleid= >,
+			"severity": <issue.folder>:transform(),
+			"type": vulnerability
+		}
+	]
+}

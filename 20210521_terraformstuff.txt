@@ -1,0 +1,8 @@
+terraform init
+terraform plan
+terraform apply
+
+terraform fmt - formats code
+terraform validate - kinda like a linter
+
+ramora - ld_preload
