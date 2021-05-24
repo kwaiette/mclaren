@@ -133,3 +133,9 @@ receiver
 logger
 
 receive, store, multiplex (logger, sender), send
+
+remember and predict - similar actions
+//
+
+
+
