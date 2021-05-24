@@ -14,6 +14,7 @@ what I envision
 	feedback
 		observe, hypothesize / predict, test
 
+CDoc
 
 
 
@@ -24,6 +25,7 @@ have an idea -> tell person -> create jira ticket
 god of the gaps
 
 documentation-to-code pipeline
+test-and-observe strategy
 
 
-
+environment: bottom-up definition as well as top-down definition
