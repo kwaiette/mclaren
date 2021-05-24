@@ -41,3 +41,52 @@ matching / learning
 	exceptions
 	A -> B matches pattern X
 		but A -> B -> C means we shouldn't match this to pattern X
+
+
+
+human interaction
+create schema of a person
+questionnaire
+	in this situation, what would you expect this person to do? (a) 
+
+corporate communication
+	figure out what needs to be communicated
+	monitor worker's machine to figure out what they're working on, decide if that would be useful for others to know
+
+types of sentence
+	question
+	imperative
+	information
+		emotional
+		pertinent
+		gossip
+	incomplete
+		interrupted
+		trailed off
+			abc properties of statement, previous experience tells us this means they trailed off
+
+
+language
+	concept of wishing I had been able to see the benefits of doing this sooner
+		another dimension on "wish I had done this sooner"
+		communicates that it was lack of imagination, not logic, that influenced prior omission
+
+atoms of communication
+molecules
+
+irony: opposite
+a = !a
+(say something that communicates a), 
+
+
+did you know that X article says, according to my interpretation, that [Y does Z, Y is happening in Z, Y does not do Z]?
+	things that maybe should be communicated? that I know that what I'm saying is according to my own interpretation
+
+
+comedy
+	pointing out inconsistencies, 
+
+narrative: serialization
+
+context meaning
+define context in document?
