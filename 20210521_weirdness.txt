@@ -137,5 +137,9 @@ receive, store, multiplex (logger, sender), send
 remember and predict - similar actions
 //
 
+UI / UX
+concept
+	
+
 
 
