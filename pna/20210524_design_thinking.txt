@@ -42,3 +42,16 @@ philosophy: don't let perfect be the enemy of good
 describe > proceed
 
 
+configuration
+	//
+
+
+blue/green human gap
+
+
+concept
+	enforcement?
+
+it IS separate and it CAN'T be separate
+	this means...
+
