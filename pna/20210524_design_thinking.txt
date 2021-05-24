@@ -5,7 +5,7 @@ what I envision
 		pattern: human connector
 		process: semantic versioning through build promotion
 	microservice architecture
-		operations (mux, demux, forward, transform, store)
+		operations (mux, demux, forward, transform, store, send/receive, call/answer)
 	
 
 	request ID, auditing
@@ -32,3 +32,10 @@ environment: bottom-up definition as well as top-down definition
 
 
 modeling : implementing
+
+philosophy: don't let perfect be the enemy of good
+	tag things that match or don't match values
+	keep values in mind as we implement, but don't stop because we don't know how to fit a specific thing into a value
+		vendor-specific queries for a DB
+
+
