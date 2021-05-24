@@ -19,3 +19,11 @@ what I envision
 
 sequence
 
+have an idea -> tell person -> create jira ticket
+
+god of the gaps
+
+documentation-to-code pipeline
+
+
+
