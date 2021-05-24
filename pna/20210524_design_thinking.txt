@@ -39,4 +39,6 @@ philosophy: don't let perfect be the enemy of good
 	keep values in mind as we implement, but don't stop because we don't know how to fit a specific thing into a value
 		vendor-specific queries for a DB
 
+describe > proceed
+
 
