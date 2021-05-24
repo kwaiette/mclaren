@@ -113,3 +113,17 @@ else if that doesn't exist in this universe
 chunker and pattern matcher
 chunker thinks of ways we can organize the data to search for meaning in it
 pattern matcher searches for meaning in those chunks of data
+
+
+
+microservice architecture
+mux / demux
+serializer
+	a type of demux
+splitter
+	a type of mux
+forwarder
+	conditional forwarder
+transformer
+store
+	CRUD
