@@ -90,3 +90,26 @@ narrative: serialization
 
 context meaning
 define context in document?
+
+
+swagger -> api gateway
+
+public and private data
+	concept
+	within the same file
+	controls publishing of this information
+	could be git hook to remove sensitive information and store it elsewhere
+
+git hook
+	choose file
+	detect file type
+	load method of 
+
+that exists in this universe, so does that, so does that
+	in this universe, the sequence of this, that, and that means X
+else if that doesn't exist in this universe
+	return [meaningless]
+
+chunker and pattern matcher
+chunker thinks of ways we can organize the data to search for meaning in it
+pattern matcher searches for meaning in those chunks of data
