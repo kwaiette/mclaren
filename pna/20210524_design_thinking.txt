@@ -1,0 +1,21 @@
+process: envision what I want
+
+what I envision
+	CI/CD/CT/CDep/CDoc
+		pattern: human connector
+		process: semantic versioning through build promotion
+	microservice architecture
+		operations (mux, demux, forward, transform, store)
+	
+
+	request ID, auditing
+		pattern: legacy node, 
+
+	feedback
+		observe, hypothesize / predict, test
+
+
+
+
+sequence
+
