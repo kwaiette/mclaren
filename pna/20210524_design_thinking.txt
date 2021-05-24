@@ -29,3 +29,6 @@ test-and-observe strategy
 
 
 environment: bottom-up definition as well as top-down definition
+
+
+modeling : implementing
