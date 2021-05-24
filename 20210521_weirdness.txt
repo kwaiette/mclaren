@@ -124,6 +124,12 @@ splitter
 	a type of mux
 forwarder
 	conditional forwarder
+sender
+	forwarder is type of sender
 transformer
 store
 	CRUD
+receiver
+logger
+
+receive, store, multiplex (logger, sender), send
