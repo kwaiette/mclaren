@@ -15,7 +15,8 @@ what I envision
 		observe, hypothesize / predict, test
 
 CDoc
-
+	dependencies as documentation
+	pseudocode as documentation
 
 
 sequence
