@@ -17,3 +17,8 @@ Design Principle #1 from Wayne's Big Book of Design: Project your idea into the 
 
 Meta-buisiness model: Figure out the ways of thinking that led to the existence of Gartner and similar companies. Make a fortune teaching people how to create Gartner-like companies. Better yet, devise a pyramid scheme that sells Gartner factories.
 
+I've always been a comedian. I just had to find the right character to convey my worldview to the right audience that would find humor in it.
+
+Mark my words, y'all. Microservice architecture will inevitably lead to sapient AI. Some day you may thank me, or you may curse me: "He saw this coming, and he did it anyway??"
+I think my next hyperfocus will be data lakes.
+
