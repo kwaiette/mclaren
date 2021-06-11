@@ -22,3 +22,5 @@ I've always been a comedian. I just had to find the right character to convey my
 Mark my words, y'all. Microservice architecture will inevitably lead to sapient AI. Some day you may thank me, or you may curse me: "He saw this coming, and he did it anyway??"
 I think my next hyperfocus will be data lakes.
 
+I'm not the grandfather of devops. I'm more like the snot-nosed kid who came along all, "I can do it better!" The old fogies are thinking, "I can't STAND him! But he does have a point about some of this stuff."
+
