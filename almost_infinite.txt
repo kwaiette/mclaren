@@ -51,3 +51,8 @@ pay attention to self-deprecation
   it needs to stop
 
 context
+
+
+I think this is what cosmos was going for with the 
+
+idea: social media network that defaults to hiding posts after 24 hours, but you can 
