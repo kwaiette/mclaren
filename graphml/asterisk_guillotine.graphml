@@ -576,7 +576,6 @@
       </data>
     </node>
     <node id="n51">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="165.41796875" x="-714.6403569240196" y="246.5102495543672"/>
@@ -588,7 +587,6 @@
       </data>
     </node>
     <node id="n52">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="151.033203125" x="-707.4479741115196" y="172.6875"/>
@@ -600,7 +598,6 @@
       </data>
     </node>
     <node id="n53">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="259.484375" x="-790.7493176247772" y="533.8471479500892"/>
@@ -612,7 +609,6 @@
       </data>
     </node>
     <node id="n54">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="64.68359375" x="1087.1136398451429" y="-321.322192513369"/>
@@ -624,7 +620,6 @@
       </data>
     </node>
     <node id="n55">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="45.34765625" x="1020.576171875" y="-373.822192513369"/>
@@ -636,7 +631,6 @@
       </data>
     </node>
     <node id="n56">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="204.107421875" x="1097.4017257826429" y="-373.822192513369"/>
@@ -648,7 +642,6 @@
       </data>
     </node>
     <node id="n57">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="337.35546875" x="222.17342427027643" y="-352.1082887700535"/>
@@ -660,7 +653,6 @@
       </data>
     </node>
     <node id="n58">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="94.583984375" x="124.2080078125" y="-404.6082887700535"/>
@@ -672,7 +664,6 @@
       </data>
     </node>
     <node id="n59">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="550.9765625" x="388.6230043114974" y="-396.88169411764704"/>
@@ -684,13 +675,36 @@
       </data>
     </node>
     <node id="n60">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="422.26953125" x="772.9765199364974" y="-449.38169411764704"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="412.26953125" x="5.0" xml:space="preserve" y="5.6494140625">breeding and feeding are done through tubes. everyone seems to prefer this.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n61">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="314.69140625" x="1322.922166750223" y="-370.7989750445633"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="304.69140625" x="5.0" xml:space="preserve" y="5.6494140625">freckles say: PROTECT HUMAN FROM SUN DAMAGE!<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n62">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="323.48046875" x="1318.527635500223" y="-449.38169411764704"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="313.48046875" x="5.0" xml:space="preserve" y="5.6494140625">DNA says: okay but could you at least make it look pretty?<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -916,7 +930,6 @@
       </data>
     </edge>
     <edge id="e18" source="n51" target="n52">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-0.0" sy="-15.0" tx="-0.0" ty="15.0"/>
@@ -927,7 +940,6 @@
       </data>
     </edge>
     <edge id="e19" source="n54" target="n55">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-0.0" sy="-15.0" tx="-0.0" ty="15.0">
@@ -941,7 +953,6 @@
       </data>
     </edge>
     <edge id="e20" source="n54" target="n56">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="19.561197916666742" sy="-15.0" tx="-0.0" ty="15.0">
@@ -955,7 +966,6 @@
       </data>
     </edge>
     <edge id="e21" source="n57" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-142.0935480726382" sy="-15.0" tx="-0.0" ty="15.0">
@@ -969,13 +979,23 @@
       </data>
     </edge>
     <edge id="e22" source="n59" target="n60">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-0.0" sy="-15.0" tx="-0.0" ty="15.0">
             <y:Point x="664.1112855614974" y="-405.63169411764704"/>
             <y:Point x="984.1112855614974" y="-405.63169411764704"/>
           </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n61" target="n62">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-0.0" sy="-15.0" tx="-0.0" ty="15.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
