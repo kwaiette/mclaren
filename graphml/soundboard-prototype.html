@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Soundboard Prototype</title>
@@ -34,11 +35,6 @@
       }
 
     </style>
-    <script>
-      document.getElementById("body-main").onclick = function(event) {
-        console.log("clicked ", event.target)
-      }
-    </script>
   </head>
   <body id="body-main">
     <table class="soundboard">
@@ -58,5 +54,10 @@
     <audio id="ad03" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad03.mp3"></audio>
     <audio id="ad04" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad04.mp3"></audio>
     <audio id="ad05" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad05.mp3"></audio>
+    <script>
+      document.body.onclick = function(event) {
+        console.log("clicked ", event.target)
+      }
+    </script>
   </body>
 </html>
