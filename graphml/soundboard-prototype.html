@@ -86,6 +86,23 @@
         //audioClip.play()
         speech.text = buttonSpeak[whichClicked]
         window.speechSynthesis.speak(speech)
+
+        depressElement(event.target)
+        setTimeout(releaseElement, 300)
+      }
+      function depressElement(elem) {
+        posLeft = elem.style.marginLeft;
+        posTop = elem.style.marginTop;
+
+        elem.setAttribute("data-left",posLeft)
+        elem.setAttribute("data-top",posTop)
+
+        elem.style.marginTop = posTop+50
+        elem.style.marginLeft = posLeft-50
+        console.log("soda pressed")
+      }
+      function releaseElement(elem) {
+
       }
 
       let speech = new SpeechSynthesisUtterance();
