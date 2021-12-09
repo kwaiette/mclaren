@@ -60,12 +60,25 @@
     <audio id="ad05" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad05.mp3"></audio>
     <audio id="ad06" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad06.mp3"></audio>
     <script>
+      buttonSpeak = [
+        "Help me I am in hell",
+        "Outside",
+        "Treat",
+        "Pet me",
+        "Please",
+        "No"
+      ]
       document.body.onclick = function(event) {
         console.log("clicked ", event.target.className)
         whichClicked = event.target.className.slice(-1)
-        var audioClip = document.getElementById("ad0"+whichClicked)
-        audioClip.play()
+        //var audioClip = document.getElementById("ad0"+whichClicked)
+        //audioClip.play()
+        speech.text = buttonSpeak[whichClicked]
+        window.speechSynthesis.speak(speech)
       }
+
+      let speech = new SpeechSynthesisUtterance();
+      speech.lang = "en";
     </script>
   </body>
 </html>
