@@ -87,6 +87,7 @@
         speech.text = buttonSpeak[whichClicked] ? buttonSpeak[whichClicked] : buttonSpeak[0]
         window.speechSynthesis.speak(speech)
 
+        window.navigator.vibrate(100)
         depressElement(event.target)
         setTimeout(releaseElement, 300, event.target)
       }
