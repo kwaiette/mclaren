@@ -56,7 +56,10 @@
     <audio id="ad05" src="file://E:/Users/wayne/Downloads/Warner Bros. Sound Effects Library (1400+ Sound FX) [RH]/Disc 0001/ad05.mp3"></audio>
     <script>
       document.body.onclick = function(event) {
-        console.log("clicked ", event.target)
+        console.log("clicked ", event.target.className)
+        whichClicked = event.target.className.slice(-1)
+        var audioClip = document.getElementById("ad0"+whichClicked)
+        audioClip.play()
       }
     </script>
   </body>
