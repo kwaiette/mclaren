@@ -88,7 +88,7 @@
         window.speechSynthesis.speak(speech)
 
         depressElement(event.target)
-        setTimeout(releaseElement, 300)
+        setTimeout(releaseElement, 300, event.target)
       }
       function depressElement(elem) {
         posLeft = elem.style.marginLeft;
@@ -97,12 +97,13 @@
         elem.setAttribute("data-left",posLeft)
         elem.setAttribute("data-top",posTop)
 
-        elem.style.marginTop = posTop+50
-        elem.style.marginLeft = posLeft-50
+        elem.style.opacity = 0.3
+
         console.log("soda pressed")
       }
       function releaseElement(elem) {
-
+        elem.style.opacity = 1
+        console.log("release me from this prison")
       }
 
       let speech = new SpeechSynthesisUtterance();
