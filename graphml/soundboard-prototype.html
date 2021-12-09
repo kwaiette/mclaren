@@ -84,7 +84,7 @@
         whichClicked = event.target.className.slice(-1)
         //var audioClip = document.getElementById("ad0"+whichClicked)
         //audioClip.play()
-        speech.text = buttonSpeak[whichClicked]
+        speech.text = buttonSpeak[whichClicked] ? buttonSpeak[whichClicked] : buttonSpeak[0]
         window.speechSynthesis.speak(speech)
 
         depressElement(event.target)
