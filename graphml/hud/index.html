@@ -24,7 +24,7 @@
         left: 0;
         height: 30%;
       }
-      div.left-spoon {
+      div.spoon-gauge {
         background-color: rgb(0,0,0,0);
         background-image: url("img/spoon-silhouette.svg");
         background-repeat: no-repeat;
@@ -32,24 +32,23 @@
         height: 100%;
         position: relative;
         top: 0;
+      }
+      div.left-spoon-gauge {
         left: 0;
       }
-      div.right-spoon {
-        background-color: rgb(0,0,0,0);
-        background-image: url("img/spoon-silhouette.svg")
-        background-repeat: no-repeat;
-        background-size: 25% auto;
+      div.right-spoon-gauge {
+        right: 0;
       }
     </style>
   </head>
   <body>
     <div class="hud">
       <div class="bottom-bar">
-        <div class="left-spoon">
+        <div class="left-spoon-gauge spoon-gauge">
         </div>
         <div class="action-bar">
         </div>
-        <div class="right-spoon">
+        <div class="right-spoon-gauge spoon-gauge">
         </div>
       </div>
     </div>
